@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ball Bearing
+* source:	https://sketchfab.com/3d-models/ball-bearing-2fad1cbea0064296a8e1b61856af3b14
+* author:	Parth19 (https://sketchfab.com/renderer19)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ball Bearing" (https://sketchfab.com/3d-models/ball-bearing-2fad1cbea0064296a8e1b61856af3b14) by Parth19 (https://sketchfab.com/renderer19) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

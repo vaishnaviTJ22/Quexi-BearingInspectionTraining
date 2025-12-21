@@ -1,0 +1,11 @@
+Model Information:
+* title:	Shaft and ball bearing housing
+* source:	https://sketchfab.com/3d-models/shaft-and-ball-bearing-housing-e7b9bf4efc564291b508f0ac318fa09e
+* author:	ketzacoalt (https://sketchfab.com/ketzacoalt)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Shaft and ball bearing housing" (https://sketchfab.com/3d-models/shaft-and-ball-bearing-housing-e7b9bf4efc564291b508f0ac318fa09e) by ketzacoalt (https://sketchfab.com/ketzacoalt) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

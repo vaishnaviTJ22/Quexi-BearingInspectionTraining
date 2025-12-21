@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rodamiento 608-2Z
+* source:	https://sketchfab.com/3d-models/rodamiento-608-2z-436df6a44ce549dba3953bdc4edd05b3
+* author:	HectorValenzuela (https://sketchfab.com/HectorValenzuela)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rodamiento 608-2Z" (https://sketchfab.com/3d-models/rodamiento-608-2z-436df6a44ce549dba3953bdc4edd05b3) by HectorValenzuela (https://sketchfab.com/HectorValenzuela) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

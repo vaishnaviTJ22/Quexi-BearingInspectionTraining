@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bearing
+* source:	https://sketchfab.com/3d-models/bearing-7bfeee3eecc54695bc5e27c4d875a984
+* author:	Sergey Koliadintsev (https://sketchfab.com/Star.Zet)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bearing" (https://sketchfab.com/3d-models/bearing-7bfeee3eecc54695bc5e27c4d875a984) by Sergey Koliadintsev (https://sketchfab.com/Star.Zet) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

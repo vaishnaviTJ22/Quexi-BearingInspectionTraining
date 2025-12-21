@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bearing Race
+* source:	https://sketchfab.com/3d-models/bearing-race-adf4513f80fd48dea5eebea0ae6115ea
+* author:	Mike Rowley (https://sketchfab.com/scrumpy26)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bearing Race" (https://sketchfab.com/3d-models/bearing-race-adf4513f80fd48dea5eebea0ae6115ea) by Mike Rowley (https://sketchfab.com/scrumpy26) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
