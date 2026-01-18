@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Lean.Localization;
+using TamilUI;
 
 public class PartInfoUIManager : MonoBehaviour
 {
@@ -40,10 +42,7 @@ public class PartInfoUIManager : MonoBehaviour
     void Start()
     {
         SubscribeToAllParts();
-        if (LanguageManager.Instance != null)
-        {
-            LanguageManager.Instance.OnLanguageChanged += OnLanguageChanged;
-        }
+        LeanLocalization.OnLocalizationChanged += OnLocalizationChanged;
     }
 
     void OnDestroy()
@@ -54,14 +53,10 @@ public class PartInfoUIManager : MonoBehaviour
         }
 
         UnsubscribeFromAllParts();
-        
-        if (LanguageManager.Instance != null)
-        {
-            LanguageManager.Instance.OnLanguageChanged -= OnLanguageChanged;
-        }
+        LeanLocalization.OnLocalizationChanged -= OnLocalizationChanged;
     }
 
-    private void OnLanguageChanged(Language newLanguage)
+    private void OnLocalizationChanged()
     {
         if (currentDisplayedPart != null && infoPanel != null && infoPanel.activeSelf)
         {
@@ -109,7 +104,7 @@ public class PartInfoUIManager : MonoBehaviour
         if (currentDisplayedPart == partData && infoPanel != null && infoPanel.activeSelf)
         {
             if (showDebugLogs)
-                Debug.Log($"PartInfoUI: Same part '{partData.partName}' - Keep panel open");
+                Debug.Log($"PartInfoUI: Same part - Keep panel open");
             return;
         }
 
@@ -176,27 +171,36 @@ public class PartInfoUIManager : MonoBehaviour
 
         currentDisplayedPart = partData;
 
-        // Get localized content based on current language
-        Language currentLang = LanguageManager.Instance.CurrentLanguage;
-        string name = partData.GetName(currentLang);
-        string desc = partData.GetDescription(currentLang);
+        // Get the localized components
+        var nameLocalizer = partNameText != null ? partNameText.GetComponent<LeanLocalizedTamilTextMeshProUGUI>() : null;
+        var descLocalizer = partDescriptionText != null ? partDescriptionText.GetComponent<LeanLocalizedTamilTextMeshProUGUI>() : null;
 
-        if (partNameText != null)
+        if (nameLocalizer != null)
         {
-            partNameText.text = name;
+            // Update the localization component's data
+            nameLocalizer.FallbackText = partData.fallbackName;
+            nameLocalizer.TranslationName = partData.partName;
+            // Force an update - this will call UpdateTranslation which now handles fonts correctly
+            nameLocalizer.UpdateLocalization();
+        }
+        else if (partNameText != null)
+        {
+            // Fallback if no localization component exists
+            partNameText.text = GetLocalizedText(partData.partName, partData.fallbackName);
         }
 
-        if (partDescriptionText != null)
+        if (descLocalizer != null)
         {
-            partDescriptionText.text = desc;
+            descLocalizer.FallbackText = partData.fallbackDescription;
+            descLocalizer.TranslationName = partData.partDescription;
+            descLocalizer.UpdateLocalization();
+        }
+        else if (partDescriptionText != null)
+        {
+            partDescriptionText.text = GetLocalizedText(partData.partDescription, partData.fallbackDescription);
         }
 
-        /*if (partImage != null && partData.partImage != null)
-        {
-            partImage.sprite = partData.partImage;
-            partImage.enabled = true;
-        }*/
-        else if (partImage != null)
+        if (partImage != null)
         {
             partImage.enabled = false;
         }
@@ -207,7 +211,22 @@ public class PartInfoUIManager : MonoBehaviour
         }
 
         if (showDebugLogs)
-            Debug.Log($"PartInfoUI: Displaying info for '{partData.partName}'");
+            Debug.Log($"PartInfoUI: Displaying info with phrases '{partData.partName}', '{partData.partDescription}'");
+    }
+
+    private string GetLocalizedText(string phraseName, string fallback)
+    {
+        if (string.IsNullOrEmpty(phraseName))
+            return fallback;
+
+        LeanTranslation translation = LeanLocalization.GetTranslation(phraseName);
+
+        if (translation != null && translation.Data is string translatedText)
+        {
+            return translatedText;
+        }
+
+        return fallback;
     }
 
     public void HideInfo()

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec51a1d4fe0c41d4b9dc9f170764a340, type: 3}
   m_Name: Bearing
   m_EditorClassIdentifier: 
-  partName: Bearing
-  description: A bearing is a mechanical component used to support rotating parts
-    and reduce friction between moving surfaces. It helps ensure smooth, stable,
+  partName: Part_Bearing_Title
+  partDescription: Part_Bearing_Description
+  audioPhrase: Part_Bearing_Audio
+  fallbackName: Bearing
+  fallbackDescription: A bearing is a mechanical component used to support rotating
+    parts and reduce friction between moving surfaces. It helps ensure smooth, stable,
     and efficient motion while carrying loads, improving performance, reliability,
     and the overall life of machines.
-  explanationAudio: {fileID: 8300000, guid: c287721ce055bc0458310bcc4d8a5875, type: 3}

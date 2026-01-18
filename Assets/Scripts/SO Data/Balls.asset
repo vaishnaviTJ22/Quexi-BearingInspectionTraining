@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec51a1d4fe0c41d4b9dc9f170764a340, type: 3}
   m_Name: Balls
   m_EditorClassIdentifier: 
-  partName: Balls
-  description: 'Balls reduce friction between the inner and outer rings and carry
-    the load during rotation, enabling smooth and efficient motion.
-
-
-    Check for:
+  partName: Part_Balls_Title
+  partDescription: Part_Balls_Description
+  audioPhrase: Part_Balls_Audio
+  fallbackName: Balls
+  fallbackDescription: 'Balls reduce friction between the inner and outer rings and
+    carry the load during rotation, enabling smooth and efficient motion. Check for:
     uniform size, smooth and polished surface, no pitting, no corrosion, and no contamination.'
-  explanationAudio: {fileID: 8300000, guid: a27e1e0979f7472419f976e78ba785d8, type: 3}

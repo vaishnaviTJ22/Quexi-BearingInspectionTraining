@@ -1,5 +1,5 @@
+using Lean.Localization;
 using UnityEngine;
-using System.Collections.Generic;
 
 public class PartAudioManager : MonoBehaviour
 {
@@ -49,65 +49,66 @@ public class PartAudioManager : MonoBehaviour
     public void OnPartGrabbed(EnginePartData partData)
     {
         if (partData == null || audioSource == null)
+            return;
+
+        AudioClip clip = GetLocalizedAudio(partData.audioPhrase);
+
+        if (clip == null)
         {
             if (showDebugLogs)
-                Debug.LogWarning("PartAudioManager: Part or AudioSource is null");
+                Debug.LogWarning($"PartAudioManager: No audio clip found for phrase '{partData.audioPhrase}'");
             return;
         }
 
-        if (currentPlayingPart == partData)
-        {
-            if (isPlaying && audioSource.isPlaying)
-            {
-                if (showDebugLogs)
-                    Debug.Log($"PartAudioManager: Same part '{partData.partName}' grabbed - Continue playing");
-                return;
-            }
-            else if (isPlaying && !audioSource.isPlaying)
-            {
-                if (showDebugLogs)
-                    Debug.Log($"PartAudioManager: Audio finished for '{partData.partName}'");
-                isPlaying = false;
-                return;
-            }
-        }
-
-        AudioClip clip = partData.GetAudio(LanguageManager.Instance.CurrentLanguage);
-
-        if (clip != null)
-        {
-            if (currentPlayingPart != null && showDebugLogs)
-            {
-                Debug.Log($"PartAudioManager: Switching from '{currentPlayingPart.partName}' to '{partData.partName}'");
-            }
-
-            StopCurrentAudio();
-
-            audioSource.clip = clip;
-            audioSource.Play();
-            currentPlayingPart = partData;
-            isPlaying = true;
-
-            if (showDebugLogs)
-                Debug.Log($"PartAudioManager: Playing audio for '{partData.partName}' ({LanguageManager.Instance.CurrentLanguage}) - Duration: {clip.length:F1}s");
-        }
-        else
+        if (currentPlayingPart == partData && audioSource.isPlaying)
         {
             if (showDebugLogs)
-                Debug.LogWarning($"PartAudioManager: No audio clip found for '{partData.partName}' in {LanguageManager.Instance.CurrentLanguage}");
+                Debug.Log($"PartAudioManager: Same part grabbed - Continue playing");
+            return;
         }
+
+        if (currentPlayingPart != null && showDebugLogs)
+        {
+            Debug.Log($"PartAudioManager: Switching audio to new part");
+        }
+
+        StopCurrentAudio();
+
+        audioSource.clip = clip;
+        audioSource.Play();
+        currentPlayingPart = partData;
+        isPlaying = true;
+
+        string currentLang = LeanLocalization.GetFirstCurrentLanguage();
+        if (showDebugLogs)
+            Debug.Log($"PartAudioManager: Playing audio for phrase '{partData.audioPhrase}' ({currentLang}) - Duration: {clip.length:F1}s");
+    }
+
+    private AudioClip GetLocalizedAudio(string audioPhraseName)
+    {
+        if (string.IsNullOrEmpty(audioPhraseName))
+            return null;
+
+        LeanTranslation translation = LeanLocalization.GetTranslation(audioPhraseName);
+
+        if (translation != null && translation.Data is AudioClip audioClip)
+        {
+            return audioClip;
+        }
+
+        return null;
     }
 
     public void OnPartReleased(EnginePartData partData)
     {
         if (showDebugLogs)
-            Debug.Log($"PartAudioManager: Part '{partData?.partName}' released - Audio continues");
+            Debug.Log($"PartAudioManager: Part released - Audio continues");
     }
 
     public void OnPartSnapped(EnginePartData partData)
     {
         if (showDebugLogs)
-            Debug.Log($"PartAudioManager: Part '{partData?.partName}' snapped - Audio continues");
+            Debug.Log($"PartAudioManager: Part snapped - Audio continues");
     }
 
     public void StopCurrentAudio()
@@ -115,7 +116,7 @@ public class PartAudioManager : MonoBehaviour
         if (audioSource != null && audioSource.isPlaying)
         {
             if (showDebugLogs)
-                Debug.Log($"PartAudioManager: Stopped audio for '{currentPlayingPart?.partName}'");
+                Debug.Log($"PartAudioManager: Stopped audio");
 
             audioSource.Stop();
         }
@@ -139,7 +140,7 @@ public class PartAudioManager : MonoBehaviour
         if (isPlaying && audioSource != null && !audioSource.isPlaying)
         {
             if (showDebugLogs)
-                Debug.Log($"PartAudioManager: Audio finished playing for '{currentPlayingPart?.partName}'");
+                Debug.Log($"PartAudioManager: Audio finished playing");
 
             isPlaying = false;
             currentPlayingPart = null;

@@ -1,31 +1,24 @@
+using Lean.Localization;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIFlowManager : MonoBehaviour
 {
+    [Header("LanguageSelection Panel")]
+    [SerializeField] private GameObject languageSelectionPanel;
+    [SerializeField] private Button selectButton;
+
     [Header("Welcome Screen")]
     [SerializeField] private GameObject welcomePanel;
     [SerializeField] private Button startButton;
     [SerializeField] private AudioClip welcomeAudioClip;
 
-    [Header("Info Screen")]
-    [SerializeField] private GameObject infoPanel;
-    [SerializeField] private Button infoButton;
-    [SerializeField] private Button closeInfoButton;
-
-    [Header("Main UI")]
-    [SerializeField] private GameObject explodedViewUI;
-
-    [Header("Dummy Bearing")]
-    [SerializeField] private GameObject dummyBearing;
-    [SerializeField] private GameObject originalBearing;
-
     [Header("Audio Settings")]
     [SerializeField] private bool autoPlayWelcomeAudio = true;
     [SerializeField] private bool stopAudioOnStart = true;
+    [SerializeField] private string audioPhrase;
 
-    [Header("Debug")]
-    [SerializeField] private bool showDebugLogs = true;
 
     private AudioSource audioSource;
 
@@ -43,99 +36,50 @@ public class UIFlowManager : MonoBehaviour
 
     void Start()
     {
-        dummyBearing.SetActive(true);
-        originalBearing.SetActive(false);
-        InitializeWelcomeScreen();
+        InitializeLanguageSelectionScreen();
         SetupButtonListeners();
-
-        if (autoPlayWelcomeAudio)
-        {
-            PlayWelcomeAudio();
-        }
-    }
-    private void OnEnable()
-    {
-        EventManager.UpdateMenuUIActiveState += UpdateMenuActiveState;
-    }
-    private void OnDisable()
-    {
-        EventManager.UpdateMenuUIActiveState -= UpdateMenuActiveState;
     }
     void OnDestroy()
     {
         RemoveButtonListeners();
     }
-
-    private void InitializeWelcomeScreen()
+    private AudioClip GetLocalizedAudio(string audioPhraseName)
     {
-        if (welcomePanel != null)
+        if (string.IsNullOrEmpty(audioPhraseName))
+            return null;
+
+        LeanTranslation translation = LeanLocalization.GetTranslation(audioPhraseName);
+
+        if (translation != null && translation.Data is AudioClip audioClip)
         {
-            welcomePanel.SetActive(true);
+            return audioClip;
         }
 
-        if (infoPanel != null)
-        {
-            infoPanel.SetActive(false);
-        }
-
-        if (explodedViewUI != null)
-        {
-            explodedViewUI.SetActive(false);
-        }
-
-        if (showDebugLogs)
-            Debug.Log("UI Flow initialized - Welcome screen active");
+        return null;
+    }
+    private void InitializeLanguageSelectionScreen()
+    {
+        languageSelectionPanel.SetActive(true);
     }
 
     private void SetupButtonListeners()
     {
-        if (startButton != null)
-        {
-            startButton.onClick.AddListener(OnStartButtonClicked);
-        }
-
-        if (infoButton != null)
-        {
-            infoButton.onClick.AddListener(ShowInfoPanel);
-        }
-
-        if (closeInfoButton != null)
-        {
-            closeInfoButton.onClick.AddListener(HideInfoPanel);
-        }
+        selectButton.onClick.AddListener(ShowWelcomeScreen);
+        startButton.onClick.AddListener(OnStartButtonClicked);
     }
 
     private void RemoveButtonListeners()
     {
-        if (startButton != null)
-        {
-            startButton.onClick.RemoveListener(OnStartButtonClicked);
-        }
-
-        if (infoButton != null)
-        {
-            infoButton.onClick.RemoveListener(ShowInfoPanel);
-        }
-
-        if (closeInfoButton != null)
-        {
-            closeInfoButton.onClick.RemoveListener(HideInfoPanel);
-        }
+        selectButton.onClick.RemoveListener(ShowWelcomeScreen);
+        startButton.onClick.RemoveListener(OnStartButtonClicked);
     }
 
     private void PlayWelcomeAudio()
     {
         if (welcomeAudioClip != null && audioSource != null)
         {
-            audioSource.clip = welcomeAudioClip;
+            audioSource.clip = GetLocalizedAudio(audioPhrase);//welcomeAudioClip;
             audioSource.Play();
-
-            if (showDebugLogs)
-                Debug.Log($"Playing welcome audio - Duration: {welcomeAudioClip.length:F1}s");
-        }
-        else if (showDebugLogs && welcomeAudioClip == null)
-        {
-            Debug.LogWarning("UIFlowManager: No welcome audio clip assigned");
         }
     }
 
@@ -144,9 +88,6 @@ public class UIFlowManager : MonoBehaviour
         if (audioSource != null && audioSource.isPlaying)
         {
             audioSource.Stop();
-
-            if (showDebugLogs)
-                Debug.Log("Welcome audio stopped");
         }
     }
 
@@ -156,74 +97,19 @@ public class UIFlowManager : MonoBehaviour
         {
             StopWelcomeAudio();
         }
-
-        if (welcomePanel != null)
-        {
-            welcomePanel.SetActive(false);
-        }
-
-        if (explodedViewUI != null)
-        {
-            explodedViewUI.SetActive(true);
-        }
-
-        dummyBearing.SetActive(false);
-        originalBearing.SetActive(true);
-
-        if (showDebugLogs)
-            Debug.Log("Welcome screen closed - Main UI enabled");
+        welcomePanel.SetActive(false);
+        SceneManager.LoadScene("Demo");
     }
-
-    public void ShowInfoPanel()
-    {
-        if (infoPanel != null)
-        {
-            infoPanel.SetActive(true);
-        }
-
-        if (showDebugLogs)
-            Debug.Log("Info panel displayed");
-    }
-
-    public void HideInfoPanel()
-    {
-        if (infoPanel != null)
-        {
-            infoPanel.SetActive(false);
-        }
-
-        if (showDebugLogs)
-            Debug.Log("Info panel hidden");
-    }
-
     public void ShowWelcomeScreen()
     {
-        if (welcomePanel != null)
-        {
-            welcomePanel.SetActive(true);
-        }
-
-        if (explodedViewUI != null)
-        {
-            explodedViewUI.SetActive(false);
-        }
+        languageSelectionPanel.SetActive(false); 
+        welcomePanel.SetActive(true);
 
         if (autoPlayWelcomeAudio)
         {
             PlayWelcomeAudio();
         }
     }
-
-    public void ResetToWelcome()
-    {
-        InitializeWelcomeScreen();
-
-        if (autoPlayWelcomeAudio)
-        {
-            PlayWelcomeAudio();
-        }
-    }
-
     public bool IsWelcomeAudioPlaying()
     {
         return audioSource != null && audioSource.isPlaying;
@@ -232,10 +118,5 @@ public class UIFlowManager : MonoBehaviour
     public AudioClip GetWelcomeAudioClip()
     {
         return welcomeAudioClip;
-    }
-
-    public void UpdateMenuActiveState(bool active)
-    {
-        explodedViewUI.SetActive(active);
     }
 }
