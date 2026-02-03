@@ -276,6 +276,61 @@ MonoBehaviour:
   defaultFont: {fileID: 11400000, guid: e5fa6cba27f1b7a47838db200baa1556, type: 2}
   useTamilEncoding: 1
   tamilEncoding: 0
+--- !u!1 &2344814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2344815}
+  - component: {fileID: 2344816}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_Balls_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2344815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2344814}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2344816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2344814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: a27e1e0979f7472419f976e78ba785d8, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 20d9312e00cf61c48b8bbc562b8b32a8, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: d3521d59728cf8641bb9020565cee14e, type: 3}
 --- !u!1 &11737209
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +677,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &62619259
 Transform:
   m_ObjectHideFlags: 0
@@ -661,6 +716,61 @@ MonoBehaviour:
   - Language: Hindi
     Text: 
     Object: {fileID: 8300000, guid: 3e1087d631037a244b6904227ebb7cfb, type: 3}
+--- !u!1 &74341501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 74341502}
+  - component: {fileID: 74341503}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_PlasticCage_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &74341502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74341501}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &74341503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74341501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: 986b35225d23cb241ace878668938cd8, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: e39429eb076a5fc4da4746345be2d13d, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: f023bf5605ed6b84bbfc9cd3bd2a2e5e, type: 3}
 --- !u!1 &78397287
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +860,61 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.034548517, y: 0.00051147584, z: 0.000073043164}
     m_Extent: {x: 0.0009967126, y: 0.0020704698, z: 0.0044533596}
   m_DirtyAABB: 0
+--- !u!1 &78592320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 78592321}
+  - component: {fileID: 78592322}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_OuterRing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &78592321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78592320}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &78592322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78592320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Outer Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u093E\u0939\u0930\u0940 \u0918\u0947\u0930\u093E"
+    Object: {fileID: 0}
 --- !u!1 &80084310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1494,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90420627}
   m_CullTransparentMesh: 1
+--- !u!1 &93227437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 93227438}
+  - component: {fileID: 93227439}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_InnerRing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &93227438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93227437}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &93227439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93227437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: e3e8339240d6fe5459cb4e3e529d95e5, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 52f41ada12df5b64796c091822cd935c, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 3e1087d631037a244b6904227ebb7cfb, type: 3}
 --- !u!1 &93346733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,6 +1866,38 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 1
+--- !u!1 &115315843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115315844}
+  m_Layer: 4
+  m_Name: Visuals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115315844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115315843}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 955275299}
+  m_Father: {fileID: 1449318207}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &124119838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,6 +1929,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 429457935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &129243720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 129243721}
+  - component: {fileID: 129243722}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_Bearing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &129243721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129243720}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &129243722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129243720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: 584ac693c74f0cc4e89965ad21275496, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: fc6e58f292ee41b4ca496be02c074068, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 3897f720a5b07c1438ad32b7efb12c39, type: 3}
 --- !u!1 &129601642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,6 +2470,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1589249831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &174819000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 174819001}
+  - component: {fileID: 174819002}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_Bearing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &174819001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174819000}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &174819002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174819000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: 1720baf3af316594580e6267136366d9, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 52631e4f8648aa24a97a6174356f18cc, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 464f9106c5d40a541954c3f390f66337, type: 3}
 --- !u!1 &183766967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2291,6 +2653,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1146606085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &199956649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 199956650}
+  m_Layer: 4
+  m_Name: Inner Ring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &199956650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199956649}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 799014489}
+  m_Father: {fileID: 221241295}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201971916
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,6 +2804,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 0
+--- !u!1 &205180259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 205180260}
+  - component: {fileID: 205180261}
+  m_Layer: 0
+  m_Name: Part_SealS1_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &205180260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205180259}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &205180261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205180259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: 81df99bf0cbf23e4bab90c08685d4fc2, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: a1d3fb7d4c93b3946bce8394eb6c2722, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 0f19cd69dad8429488c00886ec3c1e64, type: 3}
 --- !u!1 &212921187
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,6 +2955,64 @@ Transform:
   - {fileID: 80823711}
   m_Father: {fileID: 545195468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &221241293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221241295}
+  - component: {fileID: 221241294}
+  m_Layer: 0
+  m_Name: BallBearing_Dummy (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!95 &221241294
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221241293}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fd39cbac4ebb522408daa70976af0085, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &221241295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221241293}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.827, y: 1, z: 0.75}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1449318207}
+  - {fileID: 199956650}
+  - {fileID: 857739552}
+  - {fileID: 2114979952}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223072182
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,6 +3108,92 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00616638, y: -0.030066561, z: -0.020585023}
     m_Extent: {x: 0.033926036, y: 0.041736547, z: 0.054627255}
   m_DirtyAABB: 0
+--- !u!1 &229794263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 229794264}
+  - component: {fileID: 229794266}
+  - component: {fileID: 229794265}
+  m_Layer: 4
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &229794264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229794263}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.1391, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1301101490}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &229794265
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229794263}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 81a879a17760797428e28f37acaa1c48, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &229794266
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229794263}
+  m_Mesh: {fileID: 6218434811461595109, guid: 552b424b9c8610f4496004a0eed0af40, type: 3}
 --- !u!1 &237705543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,7 +3210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &237705544
 Transform:
   m_ObjectHideFlags: 0
@@ -2859,6 +3452,61 @@ Transform:
   - {fileID: 2129424627}
   m_Father: {fileID: 1677115088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &252115823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 252115824}
+  - component: {fileID: 252115825}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_OuterRing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &252115824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252115823}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &252115825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252115823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: af3e995494bcf1345b18130cf402ff72, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 25e7b0e88b4940b4eb75c8a6bc0a81f3, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 9d3a342afe00736439e2481de1ee4dac, type: 3}
 --- !u!1 &260237180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2875,7 +3523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &260237181
 Transform:
   m_ObjectHideFlags: 0
@@ -3186,6 +3834,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 949770538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &304090796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 304090797}
+  - component: {fileID: 304090798}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_Balls_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &304090797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304090796}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &304090798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304090796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Balls
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0917\u0947\u0902\u0926\u094B\u0902"
+    Object: {fileID: 0}
 --- !u!1 &308115147
 GameObject:
   m_ObjectHideFlags: 0
@@ -3343,6 +4046,61 @@ MonoBehaviour:
   defaultFont: {fileID: 11400000, guid: e5fa6cba27f1b7a47838db200baa1556, type: 2}
   useTamilEncoding: 1
   tamilEncoding: 0
+--- !u!1 &331138330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 331138331}
+  - component: {fileID: 331138332}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_InnerRing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &331138331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331138330}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331138332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331138330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Inner Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B89\u0BB3\u0BCD \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092D\u0940\u0924\u0930\u0940 \u0930\u093F\u0902\u0917"
+    Object: {fileID: 0}
 --- !u!1 &332390749
 GameObject:
   m_ObjectHideFlags: 0
@@ -3374,6 +4132,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 249555987}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &342717628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 342717629}
+  - component: {fileID: 342717630}
+  m_Layer: 0
+  m_Name: Part_MetalGauge_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &342717629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342717628}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &342717630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342717628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Metal Cage
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B89\u0BB2\u0BCB\u0B95\u0B95\u0BCD \u0B95\u0BC2\u0BA3\u0BCD\u0B9F\u0BC1"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0927\u093E\u0924\u0941 \u0915\u093E \u092A\u093F\u0902\u091C\u0930\u093E"
+    Object: {fileID: 0}
 --- !u!1001 &343402202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3691,6 +4504,100 @@ Transform:
   m_Children: []
   m_Father: {fileID: 395899353}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &364992276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364992277}
+  - component: {fileID: 364992278}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_InnerRing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &364992277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364992276}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364992278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364992276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The inner ring is mounted on the shaft and rotates with it.It transfers
+      the load from the shaft to the rolling elements and maintains proper alignment.
+
+
+      Check
+      for: correct bore size, proper shaft fit, smooth raceway, no cracks, no burrs,
+      and no heat or discoloration marks.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B89\u0BB3\u0BCD \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BCD
+      \u0BAA\u0BCA\u0BB0\u0BC1\u0BA4\u0BCD\u0BA4\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BC1
+      \u0B85\u0BA4\u0BA9\u0BC1\u0B9F\u0BA9\u0BCD \u0B9A\u0BC1\u0BB4\u0BB2\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8 \u0B89\u0BB0\u0BC1\u0BB3\u0BC1\u0BAE\u0BCD
+      \u0B95\u0BC2\u0BB1\u0BC1\u0B95\u0BB3\u0BC1\u0B95\u0BCD\u0B95\u0BC1 \u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0B9A\u0BC0\u0BB0\u0BAE\u0BC8\u0BAA\u0BCD\u0BAA\u0BC8\u0BAA\u0BCD \u0BAA\u0BB0\u0BBE\u0BAE\u0BB0\u0BBF\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BA4\u0BC1\u0BB3\u0BC8 \u0B85\u0BB3\u0BB5\u0BC1, \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BA4\u0BA3\u0BCD\u0B9F\u0BC1 \u0BAA\u0BCA\u0BB0\u0BC1\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD,
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8, \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAA\u0BB0\u0BCD\u0BB0\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BB5\u0BC6\u0BAA\u0BCD\u0BAA\u0BAE\u0BCD \u0B85\u0BB2\u0BCD\u0BB2\u0BA4\u0BC1
+      \u0BA8\u0BBF\u0BB1\u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0B95\u0BCD \u0B95\u0BC1\u0BB1\u0BBF\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8 \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC8\u0B9A\u0BCD
+      \u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092D\u0940\u0924\u0930\u0940 \u0935\u0932\u092F \u0936\u093E\u092B\u094D\u091F
+      \u092A\u0930 \u0932\u0917\u093E \u0939\u094B\u0924\u093E \u0939\u0948 \u0914\u0930
+      \u0909\u0938\u0915\u0947 \u0938\u093E\u0925 \u0918\u0942\u092E\u0924\u093E
+      \u0939\u0948\u0964 \u092F\u0939 \u0936\u093E\u092B\u094D\u091F \u0938\u0947
+      \u0930\u094B\u0932\u093F\u0902\u0917 \u0924\u0924\u094D\u0935\u094B\u0902 \u0924\u0915
+      \u092D\u093E\u0930 \u0938\u094D\u0925\u093E\u0928\u093E\u0902\u0924\u0930\u093F\u0924
+      \u0915\u0930\u0924\u093E \u0939\u0948 \u0914\u0930 \u0909\u091A\u093F\u0924
+      \u0938\u0902\u0930\u0947\u0916\u0923 \u092C\u0928\u093E\u090F \u0930\u0916\u0924\u093E
+      \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0938\u0939\u0940
+      \u092C\u094B\u0930 \u0906\u0915\u093E\u0930, \u0936\u093E\u092B\u094D\u091F
+      \u0915\u0940 \u0909\u091A\u093F\u0924 \u092B\u093F\u091F\u093F\u0902\u0917,
+      \u091A\u093F\u0915\u0928\u0940 \u0930\u0947\u0938\u0935\u0947, \u0915\u094B\u0908
+      \u0926\u0930\u093E\u0930 \u0928\u0939\u0940\u0902, \u0915\u094B\u0908 \u0916\u0941\u0930\u0926\u0930\u093E\u092A\u0928
+      \u0928\u0939\u0940\u0902, \u0914\u0930 \u0915\u094B\u0908 \u0924\u093E\u092A
+      \u092F\u093E \u0930\u0902\u0917 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928
+      \u0915\u0947 \u0928\u093F\u0936\u093E\u0928 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
 --- !u!1 &366575710
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,6 +4972,61 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &385240322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 385240323}
+  - component: {fileID: 385240324}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_PlasticCage_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &385240323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385240322}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &385240324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385240322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Seal
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B9A\u0BC0\u0BB2\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092E\u0941\u0939\u0930"
+    Object: {fileID: 0}
 --- !u!1 &395899352
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,6 +5300,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 949770538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &414517288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 414517289}
+  - component: {fileID: 414517290}
+  m_Layer: 0
+  m_Name: Part_B1Ring_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &414517289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414517288}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &414517290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414517288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: 65075e704b2bffe4c8ed9f8766f8b23f, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 7a4b3c97b4871a846a754dbaddabf2cd, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 5baf6597b29073548a789ecd2e7cb718, type: 3}
 --- !u!1 &416216502
 GameObject:
   m_ObjectHideFlags: 0
@@ -4433,6 +5450,148 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.6778891, y: -3.0013652, z: -1.9480774}
     m_Extent: {x: 3.368389, y: 4.3300548, z: 5.2953033}
   m_DirtyAABB: 0
+--- !u!1 &416639203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416639204}
+  - component: {fileID: 416639205}
+  m_Layer: 0
+  m_Name: Part_MetalGauge_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416639204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416639203}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &416639205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416639203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "The metal cage maintains equal spacing between the balls and guides their
+      motion during rotation. It improves bearing stability under higher speeds and
+      temperatures. \n\nCheck for: deformation, cracks, wear marks, secure ball retention,
+      and no corrosion."
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B89\u0BB2\u0BCB\u0B95\u0B95\u0BCD \u0B95\u0BC2\u0BA3\u0BCD\u0B9F\u0BC1
+      \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BC1\u0B95\u0BCD\u0B95\u0BC1 \u0B87\u0B9F\u0BC8\u0BAF\u0BBF\u0BB2\u0BCD
+      \u0B9A\u0BAE\u0BAE\u0BBE\u0BA9 \u0B87\u0B9F\u0BC8\u0BB5\u0BC6\u0BB3\u0BBF\u0BAF\u0BC8\u0BAA\u0BCD
+      \u0BAA\u0BB0\u0BBE\u0BAE\u0BB0\u0BBF\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BC1\u0BB4\u0BB1\u0BCD\u0B9A\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0BAA\u0BCB\u0BA4\u0BC1 \u0B85\u0BB5\u0BB1\u0BCD\u0BB1\u0BBF\u0BA9\u0BCD \u0B87\u0BAF\u0B95\u0BCD\u0B95\u0BA4\u0BCD\u0BA4\u0BC8
+      \u0BB5\u0BB4\u0BBF\u0BA8\u0B9F\u0BA4\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0B85\u0BA4\u0BBF\u0B95 \u0BB5\u0BC7\u0B95\u0BAE\u0BCD
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0BB5\u0BC6\u0BAA\u0BCD\u0BAA\u0BA8\u0BBF\u0BB2\u0BC8\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0B95\u0BC0\u0BB4\u0BCD \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BC1\u0BAE\u0BCD \u0BA8\u0BBF\u0BB2\u0BC8\u0BA4\u0BCD\u0BA4\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BC8
+      \u0BAE\u0BC7\u0BAE\u0BCD\u0BAA\u0B9F\u0BC1\u0BA4\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B9A\u0BBF\u0BA4\u0BC8\u0BB5\u0BC1, \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD,
+      \u0B85\u0BA3\u0BBF\u0BAF \u0BAE\u0BA4\u0BBF\u0BAA\u0BCD\u0BAA\u0BC6\u0BA3\u0BCD\u0B95\u0BB3\u0BCD,
+      \u0BAA\u0BBE\u0BA4\u0BC1\u0B95\u0BBE\u0BAA\u0BCD\u0BAA\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0BA4\u0B95\u0BCD\u0B95\u0BB5\u0BC8\u0BAA\u0BCD\u0BAA\u0BC1 \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0B85\u0BB0\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1 \u0B87\u0BB2\u0BCD\u0BB2\u0BC8."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0927\u093E\u0924\u0941 \u0915\u093E \u092A\u093F\u0902\u091C\u0930\u093E
+      \u0917\u0947\u0902\u0926\u094B\u0902 \u0915\u0947 \u092C\u0940\u091A \u0938\u092E\u093E\u0928
+      \u0926\u0942\u0930\u0940 \u092C\u0928\u093E\u090F \u0930\u0916\u0924\u093E
+      \u0939\u0948 \u0914\u0930 \u0930\u094B\u091F\u0947\u0936\u0928 \u0915\u0947
+      \u0926\u094C\u0930\u093E\u0928 \u0909\u0928\u0915\u0940 \u0917\u0924\u093F
+      \u0915\u094B \u0928\u093F\u0930\u094D\u0926\u0947\u0936\u093F\u0924 \u0915\u0930\u0924\u093E
+      \u0939\u0948\u0964 \u092F\u0939 \u0909\u091A\u094D\u091A \u0917\u0924\u093F
+      \u0914\u0930 \u0924\u093E\u092A\u092E\u093E\u0928 \u0915\u0947 \u0924\u0939\u0924
+      \u0905\u0938\u0930 \u0938\u094D\u0925\u093F\u0930\u0924\u093E \u092E\u0947\u0902
+      \u0938\u0941\u0927\u093E\u0930 \u0915\u0930\u0924\u093E \u0939\u0948\u0964
+      \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0935\u093F\u0930\u0942\u092A\u0923,
+      \u0926\u0930\u093E\u0930\u0947\u0902, \u0918\u093F\u0938\u093E\u0935 \u0915\u0947
+      \u0928\u093F\u0936\u093E\u0928, \u0938\u0941\u0930\u0915\u094D\u0937\u093F\u0924
+      \u0917\u0947\u0902\u0926 \u092A\u094D\u0930\u0924\u093F\u0927\u093E\u0930\u0923,
+      \u0914\u0930 \u0915\u094B\u0908 \u091C\u0902\u0917 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
+--- !u!1 &420230277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420230278}
+  - component: {fileID: 420230279}
+  m_Layer: 0
+  m_Name: Part_SealS1_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &420230278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420230277}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &420230279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420230277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Seal S1
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAE\u0BC1\u0BA4\u0BCD\u0BA4\u0BBF\u0BB0\u0BC8 S1"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0938\u0940\u0932 S1"
+    Object: {fileID: 0}
 --- !u!1 &421142394
 GameObject:
   m_ObjectHideFlags: 0
@@ -4465,6 +5624,74 @@ Transform:
   - {fileID: 1527904174}
   m_Father: {fileID: 608498525}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &422753639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 422753640}
+  - component: {fileID: 422753641}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_Bearing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &422753640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422753639}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &422753641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422753639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: An MCB bearing is a double row ball bearing that can support higher loads
+      compared to single row bearings. Its dual-row design provides better stability
+      and durability, making it suitable for motorcycle wheels and compact automotive
+      applications.
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "MCB \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC1
+      \u0B87\u0BB0\u0B9F\u0BCD\u0B9F\u0BC8 \u0BB5\u0BB0\u0BBF\u0B9A\u0BC8 \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF \u0B86\u0B95\u0BC1\u0BAE\u0BCD, \u0B87\u0BA4\u0BC1
+      \u0B92\u0BB1\u0BCD\u0BB1\u0BC8 \u0BB5\u0BB0\u0BBF\u0B9A\u0BC8 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BC1
+      \u0B89\u0BB0\u0BC1\u0BB3\u0BC8\u0B95\u0BB3\u0BC1\u0B9F\u0BA9\u0BCD \u0B92\u0BAA\u0BCD\u0BAA\u0BBF\u0B9F\u0BC1\u0BAE\u0BCD\u0BAA\u0BCB\u0BA4\u0BC1
+      \u0B85\u0BA4\u0BBF\u0B95 \u0B9A\u0BC1\u0BAE\u0BC8\u0B95\u0BB3\u0BC8 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BC1\u0BAE\u0BCD. "
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u090F\u092E\u0938\u0940\u092C\u0940 \u092C\u093F\u092F\u0930\u093F\u0902\u0917
+      \u090F\u0915 \u0921\u092C\u0932 \u0930\u094B \u092C\u0949\u0932 \u092C\u093F\u092F\u0930\u093F\u0902\u0917
+      \u0939\u0948 \u091C\u094B \u0938\u093F\u0902\u0917\u0932 \u0930\u094B \u092C\u093F\u092F\u0930\u093F\u0902\u0917
+      \u0915\u0940 \u0924\u0941\u0932\u0928\u093E \u092E\u0947\u0902 \u0905\u0927\u093F\u0915
+      \u092D\u093E\u0930 \u0915\u093E \u0938\u092E\u0930\u094D\u0925\u0928 \u0915\u0930
+      \u0938\u0915\u0924\u0940 \u0939\u0948\u0964 "
+    Object: {fileID: 0}
 --- !u!1 &429457934
 GameObject:
   m_ObjectHideFlags: 0
@@ -4519,7 +5746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &433086056
 Transform:
   m_ObjectHideFlags: 0
@@ -4605,7 +5832,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &435001064
 Transform:
   m_ObjectHideFlags: 0
@@ -4696,7 +5923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &454738039
 Transform:
   m_ObjectHideFlags: 0
@@ -4836,6 +6063,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 249555987}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &479098864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479098865}
+  - component: {fileID: 479098866}
+  m_Layer: 0
+  m_Name: Part_InnerRing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479098865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479098864}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &479098866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479098864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Inner Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B89\u0BB3\u0BCD \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092D\u0940\u0924\u0930\u0940 \u0930\u093F\u0902\u0917"
+    Object: {fileID: 0}
 --- !u!1 &496594617
 GameObject:
   m_ObjectHideFlags: 0
@@ -5130,6 +6412,83 @@ Transform:
   - {fileID: 1464725166}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &542131666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542131667}
+  - component: {fileID: 542131668}
+  m_Layer: 0
+  m_Name: Part_B1Ring_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &542131667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542131666}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &542131668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542131666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "The B1 ring connects the bearing to the wheel hub and transfers load from
+      the wheel to the bearing assembly. \n\nCheck for: correct dimensions, smooth
+      contact surface, no cracks, no wear marks, and proper press fit."
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "B1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BC8
+      \u0BB5\u0BC0\u0BB2\u0BCD \u0BB9\u0BAA\u0BCD\u0BAA\u0BC1\u0B9F\u0BA9\u0BCD \u0B87\u0BA3\u0BC8\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0B95\u0BCD\u0B95\u0BB0\u0BA4\u0BCD\u0BA4\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF \u0B85\u0B9A\u0BC6\u0BAE\u0BCD\u0BAA\u0BBF\u0BB3\u0BBF\u0B95\u0BCD\u0B95\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0B95\u0BB3\u0BC8 \u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\n\n\u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9 \u0BAA\u0BB0\u0BBF\u0BAE\u0BBE\u0BA3\u0B99\u0BCD\u0B95\u0BB3\u0BCD,
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BA4\u0BCA\u0B9F\u0BB0\u0BCD\u0BAA\u0BC1
+      \u0BAE\u0BC7\u0BB1\u0BCD\u0BAA\u0BB0\u0BAA\u0BCD\u0BAA\u0BC1, \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0B89\u0B9F\u0BC8\u0B95\u0BB3\u0BCD \u0B87\u0BB2\u0BCD\u0BB2\u0BC8,
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0B85\u0BB4\u0BC1\u0BA4\u0BCD\u0BA4 \u0BAA\u0BCA\u0BB0\u0BC1\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u09401 \u0930\u093F\u0902\u0917 \u092C\u0947\u092F\u0930\u093F\u0902\u0917
+      \u0915\u094B \u0935\u094D\u0939\u0940\u0932 \u0939\u092C \u0938\u0947 \u091C\u094B\u0921\u093C\u0924\u0940
+      \u0939\u0948 \u0914\u0930 \u0935\u094D\u0939\u0940\u0932 \u0938\u0947 \u0932\u094B\u0921
+      \u0915\u094B \u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0905\u0938\u0947\u0902\u092C\u0932\u0940
+      \u092E\u0947\u0902 \u0938\u094D\u0925\u093E\u0928\u093E\u0902\u0924\u0930\u093F\u0924
+      \u0915\u0930\u0924\u0940 \u0939\u0948\u0964 \n\n\u0907\u0938\u0915\u0940 \u091C\u093E\u0902\u091A
+      \u0915\u0930\u0947\u0902: \u0938\u0939\u0940 \u0906\u092F\u093E\u092E, \u091A\u093F\u0915\u0928\u0940
+      \u0938\u0902\u092A\u0930\u094D\u0915 \u0938\u0924\u0939, \u0915\u094B\u0908
+      \u0926\u0930\u093E\u0930 \u0928\u0939\u0940\u0902, \u0915\u094B\u0908 \u0918\u093F\u0938\u093E\u0935
+      \u0915\u093E \u0928\u093F\u0936\u093E\u0928 \u0928\u0939\u0940\u0902 \u0914\u0930
+      \u0909\u091A\u093F\u0924 \u092A\u094D\u0930\u0947\u0938 \u092B\u093F\u091F\u0964"
+    Object: {fileID: 0}
 --- !u!1 &544162472
 GameObject:
   m_ObjectHideFlags: 0
@@ -5506,7 +6865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &576964205
 Transform:
   m_ObjectHideFlags: 0
@@ -6016,6 +7375,61 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &609404783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 609404784}
+  - component: {fileID: 609404785}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_OuterRing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &609404784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609404783}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &609404785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609404783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Outer Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u093E\u0939\u0930\u0940 \u0918\u0947\u0930\u093E"
+    Object: {fileID: 0}
 --- !u!1 &610012386
 GameObject:
   m_ObjectHideFlags: 0
@@ -6545,6 +7959,92 @@ Transform:
   - {fileID: 1923105214}
   m_Father: {fileID: 353109671}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &639529560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 639529561}
+  - component: {fileID: 639529563}
+  - component: {fileID: 639529562}
+  m_Layer: 4
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &639529561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639529560}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1671351723}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &639529562
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639529560}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 63fde8f2aa350dd41aeec0ba9c0cdc15, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &639529563
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639529560}
+  m_Mesh: {fileID: -8642865167681169557, guid: 552b424b9c8610f4496004a0eed0af40, type: 3}
 --- !u!1 &659516141
 GameObject:
   m_ObjectHideFlags: 0
@@ -6576,6 +8076,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1146606085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &661283764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 661283765}
+  - component: {fileID: 661283766}
+  m_Layer: 0
+  m_Name: Part_OuterRing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &661283765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661283764}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &661283766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661283764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Outer Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u093E\u0939\u0930\u0940 \u0918\u0947\u0930\u093E"
+    Object: {fileID: 0}
 --- !u!1 &664110708
 GameObject:
   m_ObjectHideFlags: 0
@@ -6758,6 +8313,99 @@ Transform:
   - {fileID: 1913254660}
   m_Father: {fileID: 186030005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &684181149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 684181150}
+  - component: {fileID: 684181151}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_OuterRing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &684181150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684181149}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &684181151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684181149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The outer ring is the fixed part of the bearing that fits inside the housing.
+      It provides a smooth raceway for the balls to roll and supports the load from
+      the rotating shaft.
+
+
+      Check for: cracks, dents, corrosion, correct outer
+      diameter, and smooth raceway surface without scratches or waviness.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD
+      \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC1 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0BA8\u0BBF\u0BB2\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0B95\u0BC1\u0BA4\u0BBF\u0BAF\u0BBE\u0B95\u0BC1\u0BAE\u0BCD,
+      \u0B87\u0BA4\u0BC1 \u0BB5\u0BC0\u0B9F\u0BCD\u0B9F\u0BC1\u0BB5\u0B9A\u0BA4\u0BBF\u0B95\u0BCD\u0B95\u0BC1\u0BB3\u0BCD
+      \u0BAA\u0BCA\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD \u0B89\u0BB0\u0BC1\u0BB3
+      \u0B92\u0BB0\u0BC1 \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8\u0BAF\u0BC8 \u0BB5\u0BB4\u0B99\u0BCD\u0B95\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BC1\u0BB4\u0BB2\u0BC1\u0BAE\u0BCD
+      \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8 \u0B86\u0BA4\u0BB0\u0BBF\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD\u0B95\u0BB3\u0BCD, \u0BAA\u0BB3\u0BCD\u0BB3\u0B99\u0BCD\u0B95\u0BB3\u0BCD,
+      \u0B85\u0BB0\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1, \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BBF\u0B9F\u0BCD\u0B9F\u0BAE\u0BCD
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B95\u0BC0\u0BB1\u0BB2\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B85\u0BB2\u0BCD\u0BB2\u0BA4\u0BC1 \u0B85\u0BB2\u0BC8\u0B95\u0BB3\u0BCD \u0B87\u0BB2\u0BCD\u0BB2\u0BBE\u0BAE\u0BB2\u0BCD
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8 \u0BAE\u0BC7\u0BB1\u0BCD\u0BAA\u0BB0\u0BAA\u0BCD\u0BAA\u0BC1."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0915\u093E \u092C\u093E\u0939\u0930\u0940
+      \u0935\u0932\u092F \u0935\u0939 \u0938\u094D\u0925\u093F\u0930 \u092D\u093E\u0917
+      \u0939\u0948 \u091C\u094B \u0939\u093E\u0909\u0938\u093F\u0902\u0917 \u0915\u0947
+      \u0905\u0902\u0926\u0930 \u092B\u093F\u091F \u0939\u094B\u0924\u093E \u0939\u0948\u0964
+      \u092F\u0939 \u0917\u0947\u0902\u0926\u094B\u0902 \u0915\u094B \u0932\u0941\u0922\u093C\u0915\u0928\u0947
+      \u0915\u0947 \u0932\u093F\u090F \u090F\u0915 \u0938\u0941\u0917\u092E \u092E\u093E\u0930\u094D\u0917
+      \u092A\u094D\u0930\u0926\u093E\u0928 \u0915\u0930\u0924\u093E \u0939\u0948
+      \u0914\u0930 \u0918\u0942\u0930\u094D\u0923\u0928\u0936\u0940\u0932 \u0936\u093E\u092B\u094D\u091F
+      \u0938\u0947 \u0906\u0928\u0947 \u0935\u093E\u0932\u0947 \u092D\u093E\u0930
+      \u0915\u094B \u0938\u0939\u093E\u0930\u093E \u0926\u0947\u0924\u093E \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0926\u0930\u093E\u0930\u0947\u0902,
+      \u0927\u0915\u094D\u0915\u0947, \u091C\u0902\u0917, \u0938\u0939\u0940 \u092C\u093E\u0939\u0930\u0940
+      \u0935\u094D\u092F\u093E\u0938 \u0914\u0930 \u0916\u0930\u094B\u0902\u091A
+      \u092F\u093E \u0932\u0939\u0930\u0926\u093E\u0930\u092A\u0928 \u0915\u0947
+      \u092C\u093F\u0928\u093E \u091A\u093F\u0915\u0928\u0940 \u092E\u093E\u0930\u094D\u0917
+      \u0938\u0924\u0939\u0964"
+    Object: {fileID: 0}
 --- !u!1 &690038590
 GameObject:
   m_ObjectHideFlags: 0
@@ -7093,6 +8741,99 @@ Transform:
   m_Children: []
   m_Father: {fileID: 801670323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &742205879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 742205880}
+  - component: {fileID: 742205881}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_OuterRing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &742205880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742205879}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &742205881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742205879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The outer ring is the fixed part of the bearing that fits inside the housing.
+      It provides a smooth raceway for the balls to roll and supports the load from
+      the rotating shaft.
+
+
+      Check for: cracks, dents, corrosion, correct outer
+      diameter, and smooth raceway surface without scratches or waviness.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD
+      \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC1 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0BA8\u0BBF\u0BB2\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0B95\u0BC1\u0BA4\u0BBF\u0BAF\u0BBE\u0B95\u0BC1\u0BAE\u0BCD,
+      \u0B87\u0BA4\u0BC1 \u0BB5\u0BC0\u0B9F\u0BCD\u0B9F\u0BC1\u0BB5\u0B9A\u0BA4\u0BBF\u0B95\u0BCD\u0B95\u0BC1\u0BB3\u0BCD
+      \u0BAA\u0BCA\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD \u0B89\u0BB0\u0BC1\u0BB3
+      \u0B92\u0BB0\u0BC1 \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8\u0BAF\u0BC8 \u0BB5\u0BB4\u0B99\u0BCD\u0B95\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BC1\u0BB4\u0BB2\u0BC1\u0BAE\u0BCD
+      \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8 \u0B86\u0BA4\u0BB0\u0BBF\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD\u0B95\u0BB3\u0BCD, \u0BAA\u0BB3\u0BCD\u0BB3\u0B99\u0BCD\u0B95\u0BB3\u0BCD,
+      \u0B85\u0BB0\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1, \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BBF\u0B9F\u0BCD\u0B9F\u0BAE\u0BCD
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B95\u0BC0\u0BB1\u0BB2\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B85\u0BB2\u0BCD\u0BB2\u0BA4\u0BC1 \u0B85\u0BB2\u0BC8\u0B95\u0BB3\u0BCD \u0B87\u0BB2\u0BCD\u0BB2\u0BBE\u0BAE\u0BB2\u0BCD
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8 \u0BAE\u0BC7\u0BB1\u0BCD\u0BAA\u0BB0\u0BAA\u0BCD\u0BAA\u0BC1."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0915\u093E \u092C\u093E\u0939\u0930\u0940
+      \u0935\u0932\u092F \u0935\u0939 \u0938\u094D\u0925\u093F\u0930 \u092D\u093E\u0917
+      \u0939\u0948 \u091C\u094B \u0939\u093E\u0909\u0938\u093F\u0902\u0917 \u0915\u0947
+      \u0905\u0902\u0926\u0930 \u092B\u093F\u091F \u0939\u094B\u0924\u093E \u0939\u0948\u0964
+      \u092F\u0939 \u0917\u0947\u0902\u0926\u094B\u0902 \u0915\u094B \u0932\u0941\u0922\u093C\u0915\u0928\u0947
+      \u0915\u0947 \u0932\u093F\u090F \u090F\u0915 \u0938\u0941\u0917\u092E \u092E\u093E\u0930\u094D\u0917
+      \u092A\u094D\u0930\u0926\u093E\u0928 \u0915\u0930\u0924\u093E \u0939\u0948
+      \u0914\u0930 \u0918\u0942\u0930\u094D\u0923\u0928\u0936\u0940\u0932 \u0936\u093E\u092B\u094D\u091F
+      \u0938\u0947 \u0906\u0928\u0947 \u0935\u093E\u0932\u0947 \u092D\u093E\u0930
+      \u0915\u094B \u0938\u0939\u093E\u0930\u093E \u0926\u0947\u0924\u093E \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0926\u0930\u093E\u0930\u0947\u0902,
+      \u0927\u0915\u094D\u0915\u0947, \u091C\u0902\u0917, \u0938\u0939\u0940 \u092C\u093E\u0939\u0930\u0940
+      \u0935\u094D\u092F\u093E\u0938 \u0914\u0930 \u0916\u0930\u094B\u0902\u091A
+      \u092F\u093E \u0932\u0939\u0930\u0926\u093E\u0930\u092A\u0928 \u0915\u0947
+      \u092C\u093F\u0928\u093E \u091A\u093F\u0915\u0928\u0940 \u092E\u093E\u0930\u094D\u0917
+      \u0938\u0924\u0939\u0964"
+    Object: {fileID: 0}
 --- !u!1 &754590473
 GameObject:
   m_ObjectHideFlags: 0
@@ -7243,6 +8984,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754819776}
   m_CullTransparentMesh: 1
+--- !u!1 &755130997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755130998}
+  - component: {fileID: 755131000}
+  - component: {fileID: 755130999}
+  m_Layer: 4
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &755130998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755130997}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 799014489}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &755130999
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755130997}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 63fde8f2aa350dd41aeec0ba9c0cdc15, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &755131000
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755130997}
+  m_Mesh: {fileID: -5042030312330441029, guid: 552b424b9c8610f4496004a0eed0af40, type: 3}
 --- !u!1 &755445562
 GameObject:
   m_ObjectHideFlags: 0
@@ -7361,6 +9188,61 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &762114813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 762114814}
+  - component: {fileID: 762114815}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_B1Ring_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &762114814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762114813}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &762114815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762114813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: a27e1e0979f7472419f976e78ba785d8, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 20d9312e00cf61c48b8bbc562b8b32a8, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: d3521d59728cf8641bb9020565cee14e, type: 3}
 --- !u!1 &762334830
 GameObject:
   m_ObjectHideFlags: 0
@@ -7570,6 +9452,61 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.008976316, y: -0.064772196, z: -0.067473285}
     m_Extent: {x: 0.0043462086, y: 0.006806761, z: 0.0068782493}
   m_DirtyAABB: 0
+--- !u!1 &787558179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787558180}
+  - component: {fileID: 787558181}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_OuterRing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &787558180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787558179}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &787558181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787558179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Outer Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u093E\u0939\u0930\u0940 \u0918\u0947\u0930\u093E"
+    Object: {fileID: 0}
 --- !u!1 &787676772
 GameObject:
   m_ObjectHideFlags: 0
@@ -7602,6 +9539,93 @@ Transform:
   - {fileID: 1508859124}
   m_Father: {fileID: 694146732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &794572707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794572708}
+  - component: {fileID: 794572709}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_Balls_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &794572708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794572707}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &794572709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794572707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Balls reduce friction between the inner and outer rings and carry the
+      load during rotation, enabling smooth and efficient motion.
+
+
+      Check for:
+      uniform size, smooth and polished surface, no pitting, no corrosion, and no
+      contamination.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD \u0B89\u0BB3\u0BCD \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0B99\u0BCD\u0B95\u0BB3\u0BC1\u0B95\u0BCD\u0B95\u0BC1
+      \u0B87\u0B9F\u0BC8\u0BAF\u0BBF\u0BB2\u0BBE\u0BA9 \u0B89\u0BB0\u0BBE\u0BAF\u0BCD\u0BB5\u0BC8\u0B95\u0BCD
+      \u0B95\u0BC1\u0BB1\u0BC8\u0BA4\u0BCD\u0BA4\u0BC1, \u0B9A\u0BC1\u0BB4\u0BB1\u0BCD\u0B9A\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0BAA\u0BCB\u0BA4\u0BC1 \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8\u0B9A\u0BCD \u0B9A\u0BC1\u0BAE\u0BA8\u0BCD\u0BA4\u0BC1,
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BA4\u0BBF\u0BB1\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0B87\u0BAF\u0B95\u0BCD\u0B95\u0BA4\u0BCD\u0BA4\u0BC8
+      \u0B9A\u0BC6\u0BAF\u0BB2\u0BCD\u0BAA\u0B9F\u0BC1\u0BA4\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BA9\u0BCD\u0BB1\u0BA9.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0B9A\u0BC0\u0BB0\u0BBE\u0BA9 \u0B85\u0BB3\u0BB5\u0BC1, \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0BAA\u0BB3\u0BAA\u0BB3\u0BAA\u0BCD\u0BAA\u0BBE\u0BA9
+      \u0BAE\u0BC7\u0BB1\u0BCD\u0BAA\u0BB0\u0BAA\u0BCD\u0BAA\u0BC1, \u0B95\u0BC1\u0BB4\u0BBF\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0B85\u0BB0\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BAE\u0BBE\u0B9A\u0BC1\u0BAA\u0BBE\u0B9F\u0BC1 \u0B87\u0BB2\u0BCD\u0BB2\u0BC8."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0917\u0947\u0902\u0926\u0947\u0902 \u0906\u0902\u0924\u0930\u093F\u0915
+      \u0914\u0930 \u092C\u093E\u0939\u0930\u0940 \u091B\u0932\u094D\u0932\u094B\u0902
+      \u0915\u0947 \u092C\u0940\u091A \u0918\u0930\u094D\u0937\u0923 \u0915\u094B
+      \u0915\u092E \u0915\u0930\u0924\u0940 \u0939\u0948\u0902 \u0914\u0930 \u0918\u0942\u0930\u094D\u0923\u0928
+      \u0915\u0947 \u0926\u094C\u0930\u093E\u0928 \u092D\u093E\u0930 \u0935\u0939\u0928
+      \u0915\u0930\u0924\u0940 \u0939\u0948\u0902, \u091C\u093F\u0938\u0938\u0947
+      \u0938\u0941\u091A\u093E\u0930\u0942 \u0914\u0930 \u0915\u0941\u0936\u0932
+      \u0917\u0924\u093F \u0938\u0902\u092D\u0935 \u0939\u094B\u0924\u0940 \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u092C\u093E\u0924\u094B\u0902 \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902:
+      \u090F\u0915\u0938\u092E\u093E\u0928 \u0906\u0915\u093E\u0930, \u091A\u093F\u0915\u0928\u0940
+      \u0914\u0930 \u092A\u0949\u0932\u093F\u0936 \u0915\u0940 \u0939\u0941\u0908
+      \u0938\u0924\u0939, \u0915\u094B\u0908 \u0917\u0921\u094D\u0922\u0947 \u0928\u0939\u0940\u0902,
+      \u0915\u094B\u0908 \u091C\u0902\u0917 \u0928\u0939\u0940\u0902 \u0914\u0930
+      \u0915\u094B\u0908 \u0938\u0902\u0926\u0942\u0937\u0923 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
 --- !u!1 &798979265
 GameObject:
   m_ObjectHideFlags: 0
@@ -7632,6 +9656,38 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 251742748}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &799014488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 799014489}
+  m_Layer: 4
+  m_Name: Visuals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &799014489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799014488}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 755130998}
+  m_Father: {fileID: 199956650}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &801670322
 GameObject:
@@ -7940,6 +9996,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 908870476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &833514217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833514218}
+  - component: {fileID: 833514219}
+  m_Layer: 0
+  m_Name: Namikei&SingleRowBearing_Part_Bearing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &833514218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833514217}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &833514219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833514217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: 7f79235137c20a84dba8aa987d77325c, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: c46c3afea8f5a3c488ab89aad56440b4, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 26b5289c6e01422458b25dea1b1b9693, type: 3}
 --- !u!1 &834497666
 GameObject:
   m_ObjectHideFlags: 0
@@ -7987,7 +10098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &834910401
 Transform:
   m_ObjectHideFlags: 0
@@ -8181,6 +10292,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1230442897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &857739551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 857739552}
+  m_Layer: 4
+  m_Name: Seals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &857739552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857739551}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1301101490}
+  m_Father: {fileID: 221241295}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &864495331
 GameObject:
   m_ObjectHideFlags: 0
@@ -8275,6 +10418,148 @@ Transform:
   - {fileID: 1276186018}
   m_Father: {fileID: 1433136917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &882079865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 882079866}
+  - component: {fileID: 882079867}
+  m_Layer: 0
+  m_Name: Part_PlasticGauge_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &882079866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882079865}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &882079867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882079865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: 45f2620c41cda5c4ab503a59cc0221f4, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: d3af202d1e0347542b0a0e7dbc1a10a0, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: d3af202d1e0347542b0a0e7dbc1a10a0, type: 3}
+--- !u!1 &883613840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883613841}
+  - component: {fileID: 883613842}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_PlasticCage_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &883613841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883613840}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &883613842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883613840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The seal retains grease inside the bearing and prevents dust, water, and
+      other contaminants from entering. It helps increase bearing life and reliability.
+
+
+      Check
+      for: proper seating, no damage or tears, correct alignment, and no grease leakage.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B87\u0BA8\u0BCD\u0BA4 \u0B9A\u0BC0\u0BB2\u0BCD, \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0B89\u0BB3\u0BCD\u0BB3\u0BC7 \u0B95\u0BBF\u0BB0\u0BC0\u0BB8\u0BC8\u0BA4\u0BCD
+      \u0BA4\u0B95\u0BCD\u0B95\u0BB5\u0BC8\u0BA4\u0BCD\u0BA4\u0BC1, \u0BA4\u0BC2\u0B9A\u0BBF,
+      \u0BA8\u0BC0\u0BB0\u0BCD \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0BAA\u0BBF\u0BB1
+      \u0B85\u0B9A\u0BC1\u0BA4\u0BCD\u0BA4\u0B99\u0BCD\u0B95\u0BB3\u0BCD \u0B89\u0BB3\u0BCD\u0BB3\u0BC7
+      \u0BA8\u0BC1\u0BB4\u0BC8\u0BB5\u0BA4\u0BC8\u0BA4\u0BCD \u0BA4\u0B9F\u0BC1\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0B86\u0BAF\u0BC1\u0BB3\u0BC8\u0BAF\u0BC1\u0BAE\u0BCD \u0BA8\u0BAE\u0BCD\u0BAA\u0B95\u0BA4\u0BCD\u0BA4\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BC8\u0BAF\u0BC1\u0BAE\u0BCD
+      \u0B85\u0BA4\u0BBF\u0B95\u0BB0\u0BBF\u0B95\u0BCD\u0B95 \u0B89\u0BA4\u0BB5\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95\u0BC8, \u0B9A\u0BC7\u0BA4\u0BAE\u0BCD
+      \u0B85\u0BB2\u0BCD\u0BB2\u0BA4\u0BC1 \u0B95\u0BBF\u0BB4\u0BBF\u0BB5\u0BC1\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9 \u0B9A\u0BC0\u0BB0\u0BAE\u0BC8\u0BAA\u0BCD\u0BAA\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B95\u0BBF\u0BB0\u0BC0\u0BB8\u0BCD
+      \u0B95\u0B9A\u0BBF\u0BB5\u0BC1 \u0B87\u0BB2\u0BCD\u0BB2\u0BC8 \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC8\u0B9A\u0BCD
+      \u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0938\u0940\u0932 \u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0915\u0947
+      \u0905\u0902\u0926\u0930 \u0917\u094D\u0930\u0940\u0938 \u0915\u094B \u0930\u094B\u0915\u0915\u0930
+      \u0930\u0916\u0924\u0940 \u0939\u0948 \u0914\u0930 \u0927\u0942\u0932, \u092A\u093E\u0928\u0940
+      \u0914\u0930 \u0905\u0928\u094D\u092F \u0926\u0942\u0937\u093F\u0924 \u092A\u0926\u093E\u0930\u094D\u0925\u094B\u0902
+      \u0915\u094B \u0905\u0902\u0926\u0930 \u091C\u093E\u0928\u0947 \u0938\u0947
+      \u092C\u091A\u093E\u0924\u0940 \u0939\u0948\u0964 \u0907\u0938\u0938\u0947
+      \u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0915\u093E \u091C\u0940\u0935\u0928\u0915\u093E\u0932
+      \u0914\u0930 \u0935\u093F\u0936\u094D\u0935\u0938\u0928\u0940\u092F\u0924\u093E
+      \u092C\u0922\u093C\u0924\u0940 \u0939\u0948\u0964\r\n\r\n\u0907\u0928 \u092C\u093E\u0924\u094B\u0902
+      \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0938\u0939\u0940
+      \u0938\u0940\u091F\u093F\u0902\u0917, \u0915\u094B\u0908 \u0915\u094D\u0937\u0924\u093F
+      \u092F\u093E \u0926\u0930\u093E\u0930 \u0928\u0939\u0940\u0902, \u0938\u0939\u0940
+      \u0905\u0932\u093E\u0907\u0928\u092E\u0947\u0902\u091F \u0914\u0930 \u0917\u094D\u0930\u0940\u0938
+      \u0915\u093E \u0930\u093F\u0938\u093E\u0935 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
 --- !u!1 &889057740
 GameObject:
   m_ObjectHideFlags: 0
@@ -8375,6 +10660,61 @@ Transform:
   - {fileID: 159060758}
   m_Father: {fileID: 1286394228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &909479019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 909479020}
+  - component: {fileID: 909479021}
+  m_Layer: 0
+  m_Name: Part_B1Ring_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &909479020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909479019}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &909479021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909479019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: B1 Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BBF1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092D\u0940\u0924\u0930\u0940 \u0930\u093F\u0902\u0917"
+    Object: {fileID: 0}
 --- !u!1 &910497803
 GameObject:
   m_ObjectHideFlags: 0
@@ -8733,6 +11073,92 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1527055450098318974, guid: d723c6557bd6de145a2fad37a6fe8229, type: 3}
   m_PrefabInstance: {fileID: 951449900}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &955275298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955275299}
+  - component: {fileID: 955275301}
+  - component: {fileID: 955275300}
+  m_Layer: 4
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955275299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955275298}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 115315844}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &955275300
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955275298}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 63fde8f2aa350dd41aeec0ba9c0cdc15, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &955275301
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955275298}
+  m_Mesh: {fileID: -6713259674310844644, guid: 552b424b9c8610f4496004a0eed0af40, type: 3}
 --- !u!1 &958988193
 GameObject:
   m_ObjectHideFlags: 0
@@ -8832,7 +11258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &997666899
 Transform:
   m_ObjectHideFlags: 0
@@ -9130,6 +11556,154 @@ Transform:
   - {fileID: 1713434294}
   m_Father: {fileID: 664110709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1027007739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027007740}
+  - component: {fileID: 1027007741}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_Balls_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1027007740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027007739}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1027007741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027007739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: a27e1e0979f7472419f976e78ba785d8, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 20d9312e00cf61c48b8bbc562b8b32a8, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: d3521d59728cf8641bb9020565cee14e, type: 3}
+--- !u!1 &1032332406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032332407}
+  - component: {fileID: 1032332408}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_OuterRing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1032332407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032332406}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1032332408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032332406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The outer ring is the fixed part of the bearing that fits inside the housing.
+      It provides a smooth raceway for the balls to roll and supports the load from
+      the rotating shaft.
+
+
+      Check for: cracks, dents, corrosion, correct outer
+      diameter, and smooth raceway surface without scratches or waviness.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD
+      \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC1 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0BA8\u0BBF\u0BB2\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0B95\u0BC1\u0BA4\u0BBF\u0BAF\u0BBE\u0B95\u0BC1\u0BAE\u0BCD,
+      \u0B87\u0BA4\u0BC1 \u0BB5\u0BC0\u0B9F\u0BCD\u0B9F\u0BC1\u0BB5\u0B9A\u0BA4\u0BBF\u0B95\u0BCD\u0B95\u0BC1\u0BB3\u0BCD
+      \u0BAA\u0BCA\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD \u0B89\u0BB0\u0BC1\u0BB3
+      \u0B92\u0BB0\u0BC1 \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8\u0BAF\u0BC8 \u0BB5\u0BB4\u0B99\u0BCD\u0B95\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BC1\u0BB4\u0BB2\u0BC1\u0BAE\u0BCD
+      \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8 \u0B86\u0BA4\u0BB0\u0BBF\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD\u0B95\u0BB3\u0BCD, \u0BAA\u0BB3\u0BCD\u0BB3\u0B99\u0BCD\u0B95\u0BB3\u0BCD,
+      \u0B85\u0BB0\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1, \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BBF\u0B9F\u0BCD\u0B9F\u0BAE\u0BCD
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B95\u0BC0\u0BB1\u0BB2\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B85\u0BB2\u0BCD\u0BB2\u0BA4\u0BC1 \u0B85\u0BB2\u0BC8\u0B95\u0BB3\u0BCD \u0B87\u0BB2\u0BCD\u0BB2\u0BBE\u0BAE\u0BB2\u0BCD
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8 \u0BAE\u0BC7\u0BB1\u0BCD\u0BAA\u0BB0\u0BAA\u0BCD\u0BAA\u0BC1."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0915\u093E \u092C\u093E\u0939\u0930\u0940
+      \u0935\u0932\u092F \u0935\u0939 \u0938\u094D\u0925\u093F\u0930 \u092D\u093E\u0917
+      \u0939\u0948 \u091C\u094B \u0939\u093E\u0909\u0938\u093F\u0902\u0917 \u0915\u0947
+      \u0905\u0902\u0926\u0930 \u092B\u093F\u091F \u0939\u094B\u0924\u093E \u0939\u0948\u0964
+      \u092F\u0939 \u0917\u0947\u0902\u0926\u094B\u0902 \u0915\u094B \u0932\u0941\u0922\u093C\u0915\u0928\u0947
+      \u0915\u0947 \u0932\u093F\u090F \u090F\u0915 \u0938\u0941\u0917\u092E \u092E\u093E\u0930\u094D\u0917
+      \u092A\u094D\u0930\u0926\u093E\u0928 \u0915\u0930\u0924\u093E \u0939\u0948
+      \u0914\u0930 \u0918\u0942\u0930\u094D\u0923\u0928\u0936\u0940\u0932 \u0936\u093E\u092B\u094D\u091F
+      \u0938\u0947 \u0906\u0928\u0947 \u0935\u093E\u0932\u0947 \u092D\u093E\u0930
+      \u0915\u094B \u0938\u0939\u093E\u0930\u093E \u0926\u0947\u0924\u093E \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0926\u0930\u093E\u0930\u0947\u0902,
+      \u0927\u0915\u094D\u0915\u0947, \u091C\u0902\u0917, \u0938\u0939\u0940 \u092C\u093E\u0939\u0930\u0940
+      \u0935\u094D\u092F\u093E\u0938 \u0914\u0930 \u0916\u0930\u094B\u0902\u091A
+      \u092F\u093E \u0932\u0939\u0930\u0926\u093E\u0930\u092A\u0928 \u0915\u0947
+      \u092C\u093F\u0928\u093E \u091A\u093F\u0915\u0928\u0940 \u092E\u093E\u0930\u094D\u0917
+      \u0938\u0924\u0939\u0964"
+    Object: {fileID: 0}
 --- !u!1 &1032435635
 GameObject:
   m_ObjectHideFlags: 0
@@ -9598,6 +12172,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 550882046}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1088054802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088054803}
+  - component: {fileID: 1088054804}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_Bearing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1088054803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088054802}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1088054804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088054802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: A Hub3 bearing is an integrated wheel hub assembly that combines the bearing,
+      hub, seal, and mounting components into a single unit. It provides high load
+      capacity, precise wheel alignment, and improved safety, and is commonly used
+      in modern vehicles with ABS systems.
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB9\u0BAA\u0BCD3 \u0BAA\u0BC7\u0BB0\u0BBF\u0B99\u0BCD \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC1
+      \u0B92\u0BB0\u0BC1 \u0B92\u0BB0\u0BC1\u0B99\u0BCD\u0B95\u0BBF\u0BA3\u0BC8\u0BA8\u0BCD\u0BA4
+      \u0BB5\u0BC0\u0BB2\u0BCD \u0BB9\u0BAA\u0BCD \u0B85\u0B9A\u0BC6\u0BAE\u0BCD\u0BAA\u0BBF\u0BB3\u0BBF
+      \u0B86\u0B95\u0BC1\u0BAE\u0BCD, \u0B87\u0BA4\u0BC1 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF,
+      \u0BB9\u0BAA\u0BCD, \u0B9A\u0BC0\u0BB2\u0BCD \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BAE\u0BB5\u0BC1\u0BA3\u0BCD\u0B9F\u0BBF\u0B99\u0BCD \u0B95\u0BC2\u0BB1\u0BC1\u0B95\u0BB3\u0BC8
+      \u0B92\u0BB0\u0BC1 \u0BAF\u0BC2\u0BA9\u0BBF\u0B9F\u0BCD\u0B9F\u0BBE\u0B95 \u0B87\u0BA3\u0BC8\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1. "
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0939\u092C3 \u092C\u093F\u092F\u0930\u093F\u0902\u0917 \u090F\u0915
+      \u090F\u0915\u0940\u0915\u0943\u0924 \u0935\u094D\u0939\u0940\u0932 \u0939\u092C
+      \u0905\u0938\u0947\u0902\u092C\u0932\u0940 \u0939\u0948 \u091C\u094B \u092C\u093F\u092F\u0930\u093F\u0902\u0917,
+      \u0939\u092C, \u0938\u0940\u0932 \u0914\u0930 \u092E\u093E\u0909\u0902\u091F\u093F\u0902\u0917
+      \u0918\u091F\u0915\u094B\u0902 \u0915\u094B \u090F\u0915 \u0907\u0915\u093E\u0908
+      \u092E\u0947\u0902 \u091C\u094B\u0921\u093C\u0924\u0940 \u0939\u0948\u0964 "
+    Object: {fileID: 0}
 --- !u!1 &1100375372
 GameObject:
   m_ObjectHideFlags: 0
@@ -10161,7 +12804,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1152046770
 Transform:
   m_ObjectHideFlags: 0
@@ -10216,7 +12859,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1158385089
 Transform:
   m_ObjectHideFlags: 0
@@ -10254,6 +12897,91 @@ MonoBehaviour:
     Object: {fileID: 0}
   - Language: Hindi
     Text: "\u0938\u0939\u0928 \u0915\u0930\u0928\u093E"
+    Object: {fileID: 0}
+--- !u!1 &1159810215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1159810216}
+  - component: {fileID: 1159810217}
+  m_Layer: 0
+  m_Name: Part_PlasticGauge_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1159810216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159810215}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1159810217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159810215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The plastic cage separates and guides the balls while reducing weight
+      and friction.I t also helps minimize noise during operation.
+
+
+      Check
+      for: cracks, brittleness, deformation, discoloration from heat, and secure
+      positioning.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B8E\u0B9F\u0BC8 \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B89\u0BB0\u0BBE\u0BAF\u0BCD\u0BB5\u0BC8\u0B95\u0BCD
+      \u0B95\u0BC1\u0BB1\u0BC8\u0B95\u0BCD\u0B95\u0BC1\u0BAE\u0BCD \u0BAA\u0BCB\u0BA4\u0BC1
+      \u0BAA\u0BBF\u0BB3\u0BBE\u0BB8\u0BCD\u0B9F\u0BBF\u0B95\u0BCD \u0B95\u0BC2\u0BA3\u0BCD\u0B9F\u0BC1
+      \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BC8\u0BAA\u0BCD \u0BAA\u0BBF\u0BB0\u0BBF\u0BA4\u0BCD\u0BA4\u0BC1
+      \u0BB5\u0BB4\u0BBF\u0BA8\u0B9F\u0BA4\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0B9A\u0BC6\u0BAF\u0BB2\u0BCD\u0BAA\u0BBE\u0B9F\u0BCD\u0B9F\u0BBF\u0BA9\u0BCD
+      \u0BAA\u0BCB\u0BA4\u0BC1 \u0B9A\u0BA4\u0BCD\u0BA4\u0BA4\u0BCD\u0BA4\u0BC8\u0B95\u0BCD
+      \u0B95\u0BC1\u0BB1\u0BC8\u0B95\u0BCD\u0B95 \u0B89\u0BA4\u0BB5\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \n\n\u0B87\u0BA4\u0BC8\u0BAA\u0BCD \u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD, \u0B89\u0B9F\u0BC8\u0BAF\u0B95\u0BCD\u0B95\u0BC2\u0B9F\u0BBF\u0BAF
+      \u0BA4\u0BA9\u0BCD\u0BAE\u0BC8, \u0B9A\u0BBF\u0BA4\u0BC8\u0BB5\u0BC1, \u0BB5\u0BC6\u0BAA\u0BCD\u0BAA\u0BA4\u0BCD\u0BA4\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0BA8\u0BBF\u0BB1\u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0BAE\u0BCD \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC1\u0B95\u0BBE\u0BAA\u0BCD\u0BAA\u0BBE\u0BA9 \u0BA8\u0BBF\u0BB2\u0BC8\u0BAA\u0BCD\u0BAA\u0B9F\u0BC1\u0BA4\u0BCD\u0BA4\u0BB2\u0BCD."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092A\u094D\u0932\u093E\u0938\u094D\u091F\u093F\u0915 \u0915\u093E \u092A\u093F\u0902\u091C\u0930\u093E
+      \u0935\u091C\u0928 \u0914\u0930 \u0918\u0930\u094D\u0937\u0923 \u0915\u094B
+      \u0915\u092E \u0915\u0930\u0924\u0947 \u0939\u0941\u090F \u0917\u0947\u0902\u0926\u094B\u0902
+      \u0915\u094B \u0905\u0932\u0917 \u0915\u0930\u0924\u093E \u0939\u0948 \u0914\u0930
+      \u0909\u0928\u0915\u093E \u092E\u093E\u0930\u094D\u0917\u0926\u0930\u094D\u0936\u0928
+      \u0915\u0930\u0924\u093E \u0939\u0948\u0964 \u092F\u0939 \u0911\u092A\u0930\u0947\u0936\u0928
+      \u0915\u0947 \u0926\u094C\u0930\u093E\u0928 \u0936\u094B\u0930 \u0915\u094B
+      \u0915\u092E \u0915\u0930\u0928\u0947 \u092E\u0947\u0902 \u092D\u0940 \u092E\u0926\u0926
+      \u0915\u0930\u0924\u093E \u0939\u0948\u0964 \n\n\u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902:
+      \u0926\u0930\u093E\u0930\u0947\u0902, \u092D\u0902\u0917\u0941\u0930\u0924\u093E,
+      \u0935\u093F\u0930\u0942\u092A\u0923, \u0917\u0930\u094D\u092E\u0940 \u0938\u0947
+      \u092E\u0932\u093F\u0928\u0915\u093F\u0930\u0923, \u0914\u0930 \u0938\u0941\u0930\u0915\u094D\u0937\u093F\u0924
+      \u0938\u094D\u0925\u093F\u0924\u093F\u0964"
     Object: {fileID: 0}
 --- !u!1 &1162722321
 GameObject:
@@ -10746,6 +13474,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 429457935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1250379241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1250379242}
+  - component: {fileID: 1250379243}
+  m_Layer: 0
+  m_Name: Part_InnerRing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1250379242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250379241}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1250379243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250379241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: e3e8339240d6fe5459cb4e3e529d95e5, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 52f41ada12df5b64796c091822cd935c, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 3e1087d631037a244b6904227ebb7cfb, type: 3}
 --- !u!1 &1257622105
 GameObject:
   m_ObjectHideFlags: 0
@@ -11229,6 +14012,39 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.016699273, y: -0.03636414, z: -0.018954389}
     m_Extent: {x: 0.05463389, y: 0.050220694, z: 0.051451057}
   m_DirtyAABB: 0
+--- !u!1 &1301101489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1301101490}
+  m_Layer: 4
+  m_Name: Visuals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1301101490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301101489}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1483431564}
+  - {fileID: 229794264}
+  m_Father: {fileID: 857739552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1302524531
 GameObject:
   m_ObjectHideFlags: 0
@@ -11261,6 +14077,61 @@ Transform:
   - {fileID: 1550189599}
   m_Father: {fileID: 507464688}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1310273282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310273283}
+  - component: {fileID: 1310273284}
+  m_Layer: 0
+  m_Name: Part_Balls_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1310273283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310273282}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1310273284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310273282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Balls
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0917\u0947\u0902\u0926\u094B\u0902"
+    Object: {fileID: 0}
 --- !u!1 &1316900891
 GameObject:
   m_ObjectHideFlags: 0
@@ -11610,6 +14481,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 358760664}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1349821578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349821579}
+  - component: {fileID: 1349821580}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_InnerRing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1349821579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349821578}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1349821580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349821578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Inner Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B89\u0BB3\u0BCD \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092D\u0940\u0924\u0930\u0940 \u0930\u093F\u0902\u0917"
+    Object: {fileID: 0}
 --- !u!1 &1355828865
 GameObject:
   m_ObjectHideFlags: 0
@@ -11734,6 +14660,100 @@ Transform:
   m_Children: []
   m_Father: {fileID: 718762074}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1382800366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1382800367}
+  - component: {fileID: 1382800368}
+  m_Layer: 0
+  m_Name: Part_InnerRing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1382800367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382800366}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1382800368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382800366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The inner ring is mounted on the shaft and rotates with it.It transfers
+      the load from the shaft to the rolling elements and maintains proper alignment.
+
+
+      Check
+      for: correct bore size, proper shaft fit, smooth raceway, no cracks, no burrs,
+      and no heat or discoloration marks.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B89\u0BB3\u0BCD \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BCD
+      \u0BAA\u0BCA\u0BB0\u0BC1\u0BA4\u0BCD\u0BA4\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BC1
+      \u0B85\u0BA4\u0BA9\u0BC1\u0B9F\u0BA9\u0BCD \u0B9A\u0BC1\u0BB4\u0BB2\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8 \u0B89\u0BB0\u0BC1\u0BB3\u0BC1\u0BAE\u0BCD
+      \u0B95\u0BC2\u0BB1\u0BC1\u0B95\u0BB3\u0BC1\u0B95\u0BCD\u0B95\u0BC1 \u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0B9A\u0BC0\u0BB0\u0BAE\u0BC8\u0BAA\u0BCD\u0BAA\u0BC8\u0BAA\u0BCD \u0BAA\u0BB0\u0BBE\u0BAE\u0BB0\u0BBF\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BA4\u0BC1\u0BB3\u0BC8 \u0B85\u0BB3\u0BB5\u0BC1, \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BA4\u0BA3\u0BCD\u0B9F\u0BC1 \u0BAA\u0BCA\u0BB0\u0BC1\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD,
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8, \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAA\u0BB0\u0BCD\u0BB0\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BB5\u0BC6\u0BAA\u0BCD\u0BAA\u0BAE\u0BCD \u0B85\u0BB2\u0BCD\u0BB2\u0BA4\u0BC1
+      \u0BA8\u0BBF\u0BB1\u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0B95\u0BCD \u0B95\u0BC1\u0BB1\u0BBF\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8 \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC8\u0B9A\u0BCD
+      \u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092D\u0940\u0924\u0930\u0940 \u0935\u0932\u092F \u0936\u093E\u092B\u094D\u091F
+      \u092A\u0930 \u0932\u0917\u093E \u0939\u094B\u0924\u093E \u0939\u0948 \u0914\u0930
+      \u0909\u0938\u0915\u0947 \u0938\u093E\u0925 \u0918\u0942\u092E\u0924\u093E
+      \u0939\u0948\u0964 \u092F\u0939 \u0936\u093E\u092B\u094D\u091F \u0938\u0947
+      \u0930\u094B\u0932\u093F\u0902\u0917 \u0924\u0924\u094D\u0935\u094B\u0902 \u0924\u0915
+      \u092D\u093E\u0930 \u0938\u094D\u0925\u093E\u0928\u093E\u0902\u0924\u0930\u093F\u0924
+      \u0915\u0930\u0924\u093E \u0939\u0948 \u0914\u0930 \u0909\u091A\u093F\u0924
+      \u0938\u0902\u0930\u0947\u0916\u0923 \u092C\u0928\u093E\u090F \u0930\u0916\u0924\u093E
+      \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0938\u0939\u0940
+      \u092C\u094B\u0930 \u0906\u0915\u093E\u0930, \u0936\u093E\u092B\u094D\u091F
+      \u0915\u0940 \u0909\u091A\u093F\u0924 \u092B\u093F\u091F\u093F\u0902\u0917,
+      \u091A\u093F\u0915\u0928\u0940 \u0930\u0947\u0938\u0935\u0947, \u0915\u094B\u0908
+      \u0926\u0930\u093E\u0930 \u0928\u0939\u0940\u0902, \u0915\u094B\u0908 \u0916\u0941\u0930\u0926\u0930\u093E\u092A\u0928
+      \u0928\u0939\u0940\u0902, \u0914\u0930 \u0915\u094B\u0908 \u0924\u093E\u092A
+      \u092F\u093E \u0930\u0902\u0917 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928
+      \u0915\u0947 \u0928\u093F\u0936\u093E\u0928 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
 --- !u!1 &1389930948
 GameObject:
   m_ObjectHideFlags: 0
@@ -11956,6 +14976,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1146606085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1398173186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398173187}
+  - component: {fileID: 1398173188}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_OuterRing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1398173187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398173186}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1398173188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398173186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: af3e995494bcf1345b18130cf402ff72, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 25e7b0e88b4940b4eb75c8a6bc0a81f3, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 9d3a342afe00736439e2481de1ee4dac, type: 3}
 --- !u!1 &1417976186
 GameObject:
   m_ObjectHideFlags: 0
@@ -12179,7 +15254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1431550509
 Transform:
   m_ObjectHideFlags: 0
@@ -12450,6 +15525,66 @@ Transform:
   - {fileID: 1472308651}
   - {fileID: 997666899}
   - {fileID: 260237181}
+  - {fileID: 1818758994}
+  - {fileID: 1476021995}
+  - {fileID: 833514218}
+  - {fileID: 1469933774}
+  - {fileID: 422753640}
+  - {fileID: 129243721}
+  - {fileID: 1818601778}
+  - {fileID: 1626048761}
+  - {fileID: 1785768050}
+  - {fileID: 1697238952}
+  - {fileID: 1088054803}
+  - {fileID: 174819001}
+  - {fileID: 1310273283}
+  - {fileID: 2100871735}
+  - {fileID: 2075373623}
+  - {fileID: 342717629}
+  - {fileID: 416639204}
+  - {fileID: 1754124311}
+  - {fileID: 479098865}
+  - {fileID: 1382800367}
+  - {fileID: 1250379242}
+  - {fileID: 661283765}
+  - {fileID: 1707441631}
+  - {fileID: 1458164645}
+  - {fileID: 420230278}
+  - {fileID: 2059527470}
+  - {fileID: 205180260}
+  - {fileID: 909479020}
+  - {fileID: 542131667}
+  - {fileID: 414517289}
+  - {fileID: 1967278282}
+  - {fileID: 1159810216}
+  - {fileID: 882079866}
+  - {fileID: 304090797}
+  - {fileID: 1732077548}
+  - {fileID: 1027007740}
+  - {fileID: 385240323}
+  - {fileID: 883613841}
+  - {fileID: 74341502}
+  - {fileID: 609404784}
+  - {fileID: 684181150}
+  - {fileID: 252115824}
+  - {fileID: 1624707740}
+  - {fileID: 794572708}
+  - {fileID: 2344815}
+  - {fileID: 331138331}
+  - {fileID: 1877731078}
+  - {fileID: 93227438}
+  - {fileID: 787558180}
+  - {fileID: 1032332407}
+  - {fileID: 1803559417}
+  - {fileID: 2144222528}
+  - {fileID: 1613283290}
+  - {fileID: 762114814}
+  - {fileID: 1349821579}
+  - {fileID: 364992277}
+  - {fileID: 1963393481}
+  - {fileID: 78592321}
+  - {fileID: 742205880}
+  - {fileID: 1398173187}
   - {fileID: 1162722322}
   - {fileID: 506686785}
   - {fileID: 405815823}
@@ -12611,6 +15746,93 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1449318206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1449318207}
+  m_Layer: 4
+  m_Name: Outer Ring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1449318207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449318206}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 115315844}
+  m_Father: {fileID: 221241295}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1458164644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1458164645}
+  - component: {fileID: 1458164646}
+  m_Layer: 0
+  m_Name: Part_OuterRing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1458164645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458164644}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1458164646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458164644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: af3e995494bcf1345b18130cf402ff72, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 25e7b0e88b4940b4eb75c8a6bc0a81f3, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 9d3a342afe00736439e2481de1ee4dac, type: 3}
 --- !u!1 &1460698472
 GameObject:
   m_ObjectHideFlags: 0
@@ -12722,6 +15944,63 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.34, y: 0.57, z: 0.41}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1469933773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469933774}
+  - component: {fileID: 1469933775}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_Bearing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1469933774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469933773}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1469933775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469933773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "MCB Bearing \n(Double Row)"
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "MCB \u0BAA\u0BC7\u0BB0\u0BBF\u0B99\u0BCD \n(\u0B87\u0BB0\u0B9F\u0BCD\u0B9F\u0BC8
+      \u0BB5\u0BB0\u0BBF\u0B9A\u0BC8)"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u090F\u092E\u0938\u0940\u092C\u0940 \u092C\u093F\u092F\u0930\u093F\u0902\u0917
+      \n(\u0921\u092C\u0932 \u0930\u094B \u092C\u093F\u092F\u0930\u093F\u0902\u0917)"
+    Object: {fileID: 0}
 --- !u!1 &1472308650
 GameObject:
   m_ObjectHideFlags: 0
@@ -12738,7 +16017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1472308651
 Transform:
   m_ObjectHideFlags: 0
@@ -12808,6 +16087,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 429457935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1476021994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476021995}
+  - component: {fileID: 1476021996}
+  m_Layer: 0
+  m_Name: Namikei&SingleRowBearing_Part_Bearing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1476021995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476021994}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1476021996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476021994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: A single row bearing is a type of ball bearing designed to support radial
+      loads while allowing smooth and efficient rotation. It is compact, cost-effective,
+      and commonly used in applications where space is limited and moderate load
+      capacity is required.
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B92\u0BB1\u0BCD\u0BB1\u0BC8 \u0BB5\u0BB0\u0BBF\u0B9A\u0BC8 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF
+      \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC1 \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0BA4\u0BBF\u0BB1\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9
+      \u0B9A\u0BC1\u0BB4\u0BB1\u0BCD\u0B9A\u0BBF\u0BAF\u0BC8 \u0B85\u0BA9\u0BC1\u0BAE\u0BA4\u0BBF\u0B95\u0BCD\u0B95\u0BC1\u0BAE\u0BCD
+      \u0BAA\u0BCB\u0BA4\u0BC1 \u0BB0\u0BC7\u0B9F\u0BBF\u0BAF\u0BB2\u0BCD \u0B9A\u0BC1\u0BAE\u0BC8\u0B95\u0BB3\u0BC8
+      \u0B86\u0BA4\u0BB0\u0BBF\u0B95\u0BCD\u0B95 \u0BB5\u0B9F\u0BBF\u0BB5\u0BAE\u0BC8\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F
+      \u0B92\u0BB0\u0BC1 \u0BB5\u0B95\u0BC8 \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF
+      \u0B86\u0B95\u0BC1\u0BAE\u0BCD. "
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u090F\u0915\u0932 \u092A\u0902\u0915\u094D\u0924\u093F \u092C\u093F\u092F\u0930\u093F\u0902\u0917
+      \u090F\u0915 \u092A\u094D\u0930\u0915\u093E\u0930 \u0915\u093E \u092C\u0949\u0932
+      \u092C\u093F\u092F\u0930\u093F\u0902\u0917 \u0939\u0948 \u091C\u093F\u0938\u0947
+      \u0938\u0941\u091A\u093E\u0930\u0942 \u0914\u0930 \u0915\u0941\u0936\u0932
+      \u0930\u094B\u091F\u0947\u0936\u0928 \u0915\u0940 \u0905\u0928\u0941\u092E\u0924\u093F
+      \u0926\u0947\u0924\u0947 \u0939\u0941\u090F \u0930\u0947\u0921\u093F\u092F\u0932
+      \u092D\u093E\u0930 \u0915\u093E \u0938\u092E\u0930\u094D\u0925\u0928 \u0915\u0930\u0928\u0947
+      \u0915\u0947 \u0932\u093F\u090F \u0921\u093F\u091C\u093C\u093E\u0907\u0928
+      \u0915\u093F\u092F\u093E \u0917\u092F\u093E \u0939\u0948\u0964 "
+    Object: {fileID: 0}
 --- !u!1 &1476899784
 GameObject:
   m_ObjectHideFlags: 0
@@ -12903,6 +16255,92 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.6778891, y: -3.017043, z: -1.9610169}
     m_Extent: {x: 3.368389, y: 4.314377, z: 5.282364}
   m_DirtyAABB: 0
+--- !u!1 &1483431563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483431564}
+  - component: {fileID: 1483431566}
+  - component: {fileID: 1483431565}
+  m_Layer: 4
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1483431564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483431563}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1301101490}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &1483431565
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483431563}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 81a879a17760797428e28f37acaa1c48, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1483431566
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483431563}
+  m_Mesh: {fileID: -6562847084373635247, guid: 552b424b9c8610f4496004a0eed0af40, type: 3}
 --- !u!1 &1489042189
 GameObject:
   m_ObjectHideFlags: 0
@@ -13435,7 +16873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1568825381
 Transform:
   m_ObjectHideFlags: 0
@@ -13748,6 +17186,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2098804294}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1613283289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613283290}
+  - component: {fileID: 1613283291}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_B1Ring_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1613283290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613283289}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1613283291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613283289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "The B1 ring connects the bearing to the wheel hub and transfers load from
+      the wheel to the bearing assembly. \n\nCheck for: correct dimensions, smooth
+      contact surface, no cracks, no wear marks, and proper press fit."
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "B1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BC8
+      \u0BB5\u0BC0\u0BB2\u0BCD \u0BB9\u0BAA\u0BCD\u0BAA\u0BC1\u0B9F\u0BA9\u0BCD \u0B87\u0BA3\u0BC8\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0B95\u0BCD\u0B95\u0BB0\u0BA4\u0BCD\u0BA4\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF \u0B9A\u0B9F\u0BCD\u0B9F\u0B9A\u0BAA\u0BC8\u0B95\u0BCD\u0B95\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0B95\u0BB3\u0BC8 \u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1. "
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u09401 \u0930\u093F\u0902\u0917 \u092C\u0947\u092F\u0930\u093F\u0902\u0917
+      \u0915\u094B \u0935\u094D\u0939\u0940\u0932 \u0939\u092C \u0938\u0947 \u091C\u094B\u0921\u093C\u0924\u0940
+      \u0939\u0948 \u0914\u0930 \u0932\u094B\u0921 \u0915\u094B \u0935\u094D\u0939\u0940\u0932
+      \u0938\u0947 \u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0905\u0938\u0947\u0902\u092C\u0932\u0940
+      \u092E\u0947\u0902 \u0938\u094D\u0925\u093E\u0928\u093E\u0902\u0924\u0930\u093F\u0924
+      \u0915\u0930\u0924\u0940 \u0939\u0948\u0964 "
+    Object: {fileID: 0}
 --- !u!1 &1620621585
 GameObject:
   m_ObjectHideFlags: 0
@@ -13779,6 +17283,132 @@ Transform:
   m_Children: []
   m_Father: {fileID: 801670323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1624707739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624707740}
+  - component: {fileID: 1624707741}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_Balls_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1624707740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624707739}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1624707741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624707739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Balls
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0917\u0947\u0902\u0926\u094B\u0902"
+    Object: {fileID: 0}
+--- !u!1 &1626048760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1626048761}
+  - component: {fileID: 1626048762}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_Bearing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1626048761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626048760}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1626048762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626048760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: A Hub1 bearing is a first-generation wheel hub bearing that consists of
+      a bearing with separate inner ring, outer ring, and seal. It supports vehicle
+      wheel rotation while carrying both radial and axial loads, offering reliable
+      performance with a serviceable design.
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB9\u0BAA\u0BCD1 \u0BAA\u0BC7\u0BB0\u0BBF\u0B99\u0BCD \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC1
+      \u0BAE\u0BC1\u0BA4\u0BB2\u0BCD \u0BA4\u0BB2\u0BC8\u0BAE\u0BC1\u0BB1\u0BC8 \u0BB5\u0BC0\u0BB2\u0BCD
+      \u0BB9\u0BAA\u0BCD \u0BAA\u0BC7\u0BB0\u0BBF\u0B99\u0BCD \u0B86\u0B95\u0BC1\u0BAE\u0BCD,
+      \u0B87\u0BA4\u0BC1 \u0BA4\u0BA9\u0BBF\u0BA4\u0BCD\u0BA4\u0BA9\u0BBF \u0B89\u0BB3\u0BCD
+      \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD, \u0BB5\u0BC6\u0BB3\u0BBF \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0BAE\u0BC1\u0BA4\u0BCD\u0BA4\u0BBF\u0BB0\u0BC8\u0BAF\u0BC1\u0B9F\u0BA9\u0BCD
+      \u0B95\u0BC2\u0B9F\u0BBF\u0BAF \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BC8\u0B95\u0BCD
+      \u0B95\u0BCA\u0BA3\u0BCD\u0B9F\u0BC1\u0BB3\u0BCD\u0BB3\u0BA4\u0BC1. "
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0939\u092C1 \u092C\u093F\u092F\u0930\u093F\u0902\u0917 \u092A\u0939\u0932\u0940
+      \u092A\u0940\u0922\u093C\u0940 \u0915\u093E \u0935\u094D\u0939\u0940\u0932
+      \u0939\u092C \u092C\u093F\u092F\u0930\u093F\u0902\u0917 \u0939\u0948 \u091C\u093F\u0938\u092E\u0947\u0902
+      \u0905\u0932\u0917-\u0905\u0932\u0917 \u0906\u0902\u0924\u0930\u093F\u0915
+      \u0930\u093F\u0902\u0917, \u092C\u093E\u0939\u0930\u0940 \u0930\u093F\u0902\u0917
+      \u0914\u0930 \u0938\u0940\u0932 \u0935\u093E\u0932\u093E \u092C\u093F\u092F\u0930\u093F\u0902\u0917
+      \u0939\u094B\u0924\u093E \u0939\u0948\u0964 "
+    Object: {fileID: 0}
 --- !u!1 &1627708061
 GameObject:
   m_ObjectHideFlags: 0
@@ -14004,6 +17634,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 908870476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1671351722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1671351723}
+  m_Layer: 4
+  m_Name: Visuals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1671351723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671351722}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 639529561}
+  m_Father: {fileID: 2114979952}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1677115087
 GameObject:
   m_ObjectHideFlags: 0
@@ -14173,7 +17835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1697056204
 Transform:
   m_ObjectHideFlags: 0
@@ -14243,6 +17905,61 @@ MonoBehaviour:
       \u092F\u093E \u0926\u0930\u093E\u0930 \u0928\u0939\u0940\u0902, \u0938\u0939\u0940
       \u0905\u0932\u093E\u0907\u0928\u092E\u0947\u0902\u091F \u0914\u0930 \u0917\u094D\u0930\u0940\u0938
       \u0915\u093E \u0930\u093F\u0938\u093E\u0935 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
+--- !u!1 &1697238951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697238952}
+  - component: {fileID: 1697238953}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_Bearing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697238952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697238951}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1697238953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697238951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Hub3 Bearing
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB9\u0BAA\u0BCD3 \u0BAA\u0BC7\u0BB0\u0BBF\u0B99\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0939\u092C3 \u092C\u093F\u092F\u0930\u093F\u0902\u0917"
     Object: {fileID: 0}
 --- !u!1 &1701216707
 GameObject:
@@ -14492,6 +18209,99 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1707441630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1707441631}
+  - component: {fileID: 1707441632}
+  m_Layer: 0
+  m_Name: Part_OuterRing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1707441631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707441630}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1707441632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707441630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The outer ring is the fixed part of the bearing that fits inside the housing.
+      It provides a smooth raceway for the balls to roll and supports the load from
+      the rotating shaft.
+
+
+      Check for: cracks, dents, corrosion, correct outer
+      diameter, and smooth raceway surface without scratches or waviness.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD
+      \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC1 \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0BA8\u0BBF\u0BB2\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0B95\u0BC1\u0BA4\u0BBF\u0BAF\u0BBE\u0B95\u0BC1\u0BAE\u0BCD,
+      \u0B87\u0BA4\u0BC1 \u0BB5\u0BC0\u0B9F\u0BCD\u0B9F\u0BC1\u0BB5\u0B9A\u0BA4\u0BBF\u0B95\u0BCD\u0B95\u0BC1\u0BB3\u0BCD
+      \u0BAA\u0BCA\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD \u0B89\u0BB0\u0BC1\u0BB3
+      \u0B92\u0BB0\u0BC1 \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8\u0BAF\u0BC8 \u0BB5\u0BB4\u0B99\u0BCD\u0B95\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BC1\u0BB4\u0BB2\u0BC1\u0BAE\u0BCD
+      \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8 \u0B86\u0BA4\u0BB0\u0BBF\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD\u0B95\u0BB3\u0BCD, \u0BAA\u0BB3\u0BCD\u0BB3\u0B99\u0BCD\u0B95\u0BB3\u0BCD,
+      \u0B85\u0BB0\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1, \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BBF\u0B9F\u0BCD\u0B9F\u0BAE\u0BCD
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B95\u0BC0\u0BB1\u0BB2\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B85\u0BB2\u0BCD\u0BB2\u0BA4\u0BC1 \u0B85\u0BB2\u0BC8\u0B95\u0BB3\u0BCD \u0B87\u0BB2\u0BCD\u0BB2\u0BBE\u0BAE\u0BB2\u0BCD
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8 \u0BAE\u0BC7\u0BB1\u0BCD\u0BAA\u0BB0\u0BAA\u0BCD\u0BAA\u0BC1."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0915\u093E \u092C\u093E\u0939\u0930\u0940
+      \u0935\u0932\u092F \u0935\u0939 \u0938\u094D\u0925\u093F\u0930 \u092D\u093E\u0917
+      \u0939\u0948 \u091C\u094B \u0939\u093E\u0909\u0938\u093F\u0902\u0917 \u0915\u0947
+      \u0905\u0902\u0926\u0930 \u092B\u093F\u091F \u0939\u094B\u0924\u093E \u0939\u0948\u0964
+      \u092F\u0939 \u0917\u0947\u0902\u0926\u094B\u0902 \u0915\u094B \u0932\u0941\u0922\u093C\u0915\u0928\u0947
+      \u0915\u0947 \u0932\u093F\u090F \u090F\u0915 \u0938\u0941\u0917\u092E \u092E\u093E\u0930\u094D\u0917
+      \u092A\u094D\u0930\u0926\u093E\u0928 \u0915\u0930\u0924\u093E \u0939\u0948
+      \u0914\u0930 \u0918\u0942\u0930\u094D\u0923\u0928\u0936\u0940\u0932 \u0936\u093E\u092B\u094D\u091F
+      \u0938\u0947 \u0906\u0928\u0947 \u0935\u093E\u0932\u0947 \u092D\u093E\u0930
+      \u0915\u094B \u0938\u0939\u093E\u0930\u093E \u0926\u0947\u0924\u093E \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0926\u0930\u093E\u0930\u0947\u0902,
+      \u0927\u0915\u094D\u0915\u0947, \u091C\u0902\u0917, \u0938\u0939\u0940 \u092C\u093E\u0939\u0930\u0940
+      \u0935\u094D\u092F\u093E\u0938 \u0914\u0930 \u0916\u0930\u094B\u0902\u091A
+      \u092F\u093E \u0932\u0939\u0930\u0926\u093E\u0930\u092A\u0928 \u0915\u0947
+      \u092C\u093F\u0928\u093E \u091A\u093F\u0915\u0928\u0940 \u092E\u093E\u0930\u094D\u0917
+      \u0938\u0924\u0939\u0964"
+    Object: {fileID: 0}
 --- !u!1 &1712119702
 GameObject:
   m_ObjectHideFlags: 0
@@ -14861,6 +18671,93 @@ Transform:
   m_Children: []
   m_Father: {fileID: 239385780}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1732077547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1732077548}
+  - component: {fileID: 1732077549}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_Balls_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1732077548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732077547}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1732077549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732077547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Balls reduce friction between the inner and outer rings and carry the
+      load during rotation, enabling smooth and efficient motion.
+
+
+      Check for:
+      uniform size, smooth and polished surface, no pitting, no corrosion, and no
+      contamination.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD \u0B89\u0BB3\u0BCD \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0B99\u0BCD\u0B95\u0BB3\u0BC1\u0B95\u0BCD\u0B95\u0BC1
+      \u0B87\u0B9F\u0BC8\u0BAF\u0BBF\u0BB2\u0BBE\u0BA9 \u0B89\u0BB0\u0BBE\u0BAF\u0BCD\u0BB5\u0BC8\u0B95\u0BCD
+      \u0B95\u0BC1\u0BB1\u0BC8\u0BA4\u0BCD\u0BA4\u0BC1, \u0B9A\u0BC1\u0BB4\u0BB1\u0BCD\u0B9A\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0BAA\u0BCB\u0BA4\u0BC1 \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8\u0B9A\u0BCD \u0B9A\u0BC1\u0BAE\u0BA8\u0BCD\u0BA4\u0BC1,
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BA4\u0BBF\u0BB1\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0B87\u0BAF\u0B95\u0BCD\u0B95\u0BA4\u0BCD\u0BA4\u0BC8
+      \u0B9A\u0BC6\u0BAF\u0BB2\u0BCD\u0BAA\u0B9F\u0BC1\u0BA4\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BA9\u0BCD\u0BB1\u0BA9.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0B9A\u0BC0\u0BB0\u0BBE\u0BA9 \u0B85\u0BB3\u0BB5\u0BC1, \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0BAA\u0BB3\u0BAA\u0BB3\u0BAA\u0BCD\u0BAA\u0BBE\u0BA9
+      \u0BAE\u0BC7\u0BB1\u0BCD\u0BAA\u0BB0\u0BAA\u0BCD\u0BAA\u0BC1, \u0B95\u0BC1\u0BB4\u0BBF\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0B85\u0BB0\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BAE\u0BBE\u0B9A\u0BC1\u0BAA\u0BBE\u0B9F\u0BC1 \u0B87\u0BB2\u0BCD\u0BB2\u0BC8."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0917\u0947\u0902\u0926\u0947\u0902 \u0906\u0902\u0924\u0930\u093F\u0915
+      \u0914\u0930 \u092C\u093E\u0939\u0930\u0940 \u091B\u0932\u094D\u0932\u094B\u0902
+      \u0915\u0947 \u092C\u0940\u091A \u0918\u0930\u094D\u0937\u0923 \u0915\u094B
+      \u0915\u092E \u0915\u0930\u0924\u0940 \u0939\u0948\u0902 \u0914\u0930 \u0918\u0942\u0930\u094D\u0923\u0928
+      \u0915\u0947 \u0926\u094C\u0930\u093E\u0928 \u092D\u093E\u0930 \u0935\u0939\u0928
+      \u0915\u0930\u0924\u0940 \u0939\u0948\u0902, \u091C\u093F\u0938\u0938\u0947
+      \u0938\u0941\u091A\u093E\u0930\u0942 \u0914\u0930 \u0915\u0941\u0936\u0932
+      \u0917\u0924\u093F \u0938\u0902\u092D\u0935 \u0939\u094B\u0924\u0940 \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u092C\u093E\u0924\u094B\u0902 \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902:
+      \u090F\u0915\u0938\u092E\u093E\u0928 \u0906\u0915\u093E\u0930, \u091A\u093F\u0915\u0928\u0940
+      \u0914\u0930 \u092A\u0949\u0932\u093F\u0936 \u0915\u0940 \u0939\u0941\u0908
+      \u0938\u0924\u0939, \u0915\u094B\u0908 \u0917\u0921\u094D\u0922\u0947 \u0928\u0939\u0940\u0902,
+      \u0915\u094B\u0908 \u091C\u0902\u0917 \u0928\u0939\u0940\u0902 \u0914\u0930
+      \u0915\u094B\u0908 \u0938\u0902\u0926\u0942\u0937\u0923 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
 --- !u!1 &1739122374
 GameObject:
   m_ObjectHideFlags: 0
@@ -14923,6 +18820,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 429457935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1754124310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1754124311}
+  - component: {fileID: 1754124312}
+  m_Layer: 0
+  m_Name: Part_MetalGauge_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1754124311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754124310}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1754124312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754124310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: d67e235c70513ae428be133e58d249ad, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 82a4b33699aea224bab3682defdca15b, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: bc2e5a16db8dee64c9797aca6dbfd42a, type: 3}
 --- !u!1 &1760071237
 GameObject:
   m_ObjectHideFlags: 0
@@ -15107,6 +19059,61 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1785768049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1785768050}
+  - component: {fileID: 1785768051}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_Bearing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1785768050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785768049}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1785768051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785768049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: 165d99fc0b749ab43a338c6e536237dd, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: b4c50fa49aaeff941b2f1c8a594a08a3, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 5145382e77810af418485ead1aecb4a8, type: 3}
 --- !u!1 &1793379722
 GameObject:
   m_ObjectHideFlags: 0
@@ -15169,6 +19176,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 395899353}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1803559416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1803559417}
+  - component: {fileID: 1803559418}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_OuterRing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1803559417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803559416}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1803559418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803559416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: af3e995494bcf1345b18130cf402ff72, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 25e7b0e88b4940b4eb75c8a6bc0a81f3, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 9d3a342afe00736439e2481de1ee4dac, type: 3}
 --- !u!1 &1811290957
 GameObject:
   m_ObjectHideFlags: 0
@@ -15264,6 +19326,120 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00616638, y: -0.029108923, z: -0.018820617}
     m_Extent: {x: 0.033926036, y: 0.042694185, z: 0.05639166}
   m_DirtyAABB: 0
+--- !u!1 &1818601777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818601778}
+  - component: {fileID: 1818601779}
+  m_Layer: 0
+  m_Name: Hub1Bearing_Part_Bearing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818601778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818601777}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1818601779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818601777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Hub1 Bearing
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BB9\u0BAA\u0BCD1 \u0BAA\u0BC7\u0BB0\u0BBF\u0B99\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0939\u092C1 \u092C\u093F\u092F\u0930\u093F\u0902\u0917"
+    Object: {fileID: 0}
+--- !u!1 &1818758993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818758994}
+  - component: {fileID: 1818758995}
+  m_Layer: 0
+  m_Name: Namikei&SingleRowBearing_Part_Bearing_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818758994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818758993}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1818758995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818758993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Single Row
+
+      (Namikei) Bearing'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B92\u0BB1\u0BCD\u0BB1\u0BC8 \u0BB5\u0BB0\u0BBF\u0B9A\u0BC8\n(\u0BA8\u0BAE\u0BBF\u0B95\u0BC7\u0BAF\u0BBF)
+      \u0BAA\u0BC7\u0BB0\u0BBF\u0B99\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u090F\u0915\u0932 \u092A\u0902\u0915\u094D\u0924\u093F \n(\u0928\u093E\u092E\u093F\u0915\u0947\u0908)
+      \u092C\u093F\u092F\u0930\u093F\u0902\u0917"
+    Object: {fileID: 0}
 --- !u!1 &1822472627
 GameObject:
   m_ObjectHideFlags: 0
@@ -15526,6 +19702,100 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1877731077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1877731078}
+  - component: {fileID: 1877731079}
+  m_Layer: 0
+  m_Name: MCBBearing_Part_InnerRing_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1877731078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877731077}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1877731079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877731077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'The inner ring is mounted on the shaft and rotates with it.It transfers
+      the load from the shaft to the rolling elements and maintains proper alignment.
+
+
+      Check
+      for: correct bore size, proper shaft fit, smooth raceway, no cracks, no burrs,
+      and no heat or discoloration marks.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B89\u0BB3\u0BCD \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BCD
+      \u0BAA\u0BCA\u0BB0\u0BC1\u0BA4\u0BCD\u0BA4\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BC1
+      \u0B85\u0BA4\u0BA9\u0BC1\u0B9F\u0BA9\u0BCD \u0B9A\u0BC1\u0BB4\u0BB2\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \u0B87\u0BA4\u0BC1 \u0BA4\u0BA3\u0BCD\u0B9F\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8 \u0B89\u0BB0\u0BC1\u0BB3\u0BC1\u0BAE\u0BCD
+      \u0B95\u0BC2\u0BB1\u0BC1\u0B95\u0BB3\u0BC1\u0B95\u0BCD\u0B95\u0BC1 \u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0BC1\u0B95\u0BBF\u0BB1\u0BA4\u0BC1
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0B9A\u0BC0\u0BB0\u0BAE\u0BC8\u0BAA\u0BCD\u0BAA\u0BC8\u0BAA\u0BCD \u0BAA\u0BB0\u0BBE\u0BAE\u0BB0\u0BBF\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BA4\u0BC1\u0BB3\u0BC8 \u0B85\u0BB3\u0BB5\u0BC1, \u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9
+      \u0BA4\u0BA3\u0BCD\u0B9F\u0BC1 \u0BAA\u0BCA\u0BB0\u0BC1\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD,
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAA\u0BA8\u0BCD\u0BA4\u0BAF\u0BAA\u0BCD
+      \u0BAA\u0BBE\u0BA4\u0BC8, \u0BB5\u0BBF\u0BB0\u0BBF\u0B9A\u0BB2\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAA\u0BB0\u0BCD\u0BB0\u0BCD\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BB5\u0BC6\u0BAA\u0BCD\u0BAA\u0BAE\u0BCD \u0B85\u0BB2\u0BCD\u0BB2\u0BA4\u0BC1
+      \u0BA8\u0BBF\u0BB1\u0BAE\u0BBE\u0BB1\u0BCD\u0BB1\u0B95\u0BCD \u0B95\u0BC1\u0BB1\u0BBF\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8 \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BC8\u0B9A\u0BCD
+      \u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092D\u0940\u0924\u0930\u0940 \u0935\u0932\u092F \u0936\u093E\u092B\u094D\u091F
+      \u092A\u0930 \u0932\u0917\u093E \u0939\u094B\u0924\u093E \u0939\u0948 \u0914\u0930
+      \u0909\u0938\u0915\u0947 \u0938\u093E\u0925 \u0918\u0942\u092E\u0924\u093E
+      \u0939\u0948\u0964 \u092F\u0939 \u0936\u093E\u092B\u094D\u091F \u0938\u0947
+      \u0930\u094B\u0932\u093F\u0902\u0917 \u0924\u0924\u094D\u0935\u094B\u0902 \u0924\u0915
+      \u092D\u093E\u0930 \u0938\u094D\u0925\u093E\u0928\u093E\u0902\u0924\u0930\u093F\u0924
+      \u0915\u0930\u0924\u093E \u0939\u0948 \u0914\u0930 \u0909\u091A\u093F\u0924
+      \u0938\u0902\u0930\u0947\u0916\u0923 \u092C\u0928\u093E\u090F \u0930\u0916\u0924\u093E
+      \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902: \u0938\u0939\u0940
+      \u092C\u094B\u0930 \u0906\u0915\u093E\u0930, \u0936\u093E\u092B\u094D\u091F
+      \u0915\u0940 \u0909\u091A\u093F\u0924 \u092B\u093F\u091F\u093F\u0902\u0917,
+      \u091A\u093F\u0915\u0928\u0940 \u0930\u0947\u0938\u0935\u0947, \u0915\u094B\u0908
+      \u0926\u0930\u093E\u0930 \u0928\u0939\u0940\u0902, \u0915\u094B\u0908 \u0916\u0941\u0930\u0926\u0930\u093E\u092A\u0928
+      \u0928\u0939\u0940\u0902, \u0914\u0930 \u0915\u094B\u0908 \u0924\u093E\u092A
+      \u092F\u093E \u0930\u0902\u0917 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928
+      \u0915\u0947 \u0928\u093F\u0936\u093E\u0928 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
 --- !u!1 &1880787881
 GameObject:
   m_ObjectHideFlags: 0
@@ -16226,6 +20496,116 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1017337744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1963393480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1963393481}
+  - component: {fileID: 1963393482}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_InnerRing_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1963393481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963393480}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963393482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963393480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: e3e8339240d6fe5459cb4e3e529d95e5, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 52f41ada12df5b64796c091822cd935c, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: 3e1087d631037a244b6904227ebb7cfb, type: 3}
+--- !u!1 &1967278281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1967278282}
+  - component: {fileID: 1967278283}
+  m_Layer: 0
+  m_Name: Part_PlasticGauge_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1967278282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967278281}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1967278283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967278281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Plastic Cage
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BBF\u0BB3\u0BBE\u0BB8\u0BCD\u0B9F\u0BBF\u0B95\u0BCD \u0B95\u0BC2\u0BA3\u0BCD\u0B9F\u0BC1"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092A\u094D\u0932\u093E\u0938\u094D\u091F\u093F\u0915 \u0915\u093E \u092A\u093F\u0902\u091C\u0930\u093E"
+    Object: {fileID: 0}
 --- !u!1 &1973067250
 GameObject:
   m_ObjectHideFlags: 0
@@ -23205,6 +27585,83 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.03454852, y: 0.0005114786, z: 0.00007304177}
     m_Extent: {x: 0.0009967163, y: 0.0020704702, z: 0.004453361}
   m_DirtyAABB: 0
+--- !u!1 &2059527469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2059527470}
+  - component: {fileID: 2059527471}
+  m_Layer: 0
+  m_Name: Part_SealS1_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2059527470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059527469}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2059527471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059527469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "Seal S1 protects the bearing from external contaminants while retaining
+      lubrication inside the hub. \n\nCheck for: correct seating, no tears, no grease
+      leakage, and intact sealing lip."
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0B9A\u0BC0\u0BB2\u0BCD S1, \u0BB9\u0BAA\u0BCD\u0BAA\u0BBF\u0BA9\u0BCD
+      \u0B89\u0BB3\u0BCD\u0BB3\u0BC7 \u0BB2\u0BC2\u0BAA\u0BCD\u0BB0\u0BBF\u0B95\u0BC7\u0BB7\u0BA9\u0BC8\u0BA4\u0BCD
+      \u0BA4\u0B95\u0BCD\u0B95\u0BB5\u0BC8\u0BA4\u0BCD\u0BA4\u0BC1\u0B95\u0BCD\u0B95\u0BCA\u0BB3\u0BCD\u0BB3\u0BC1\u0BAE\u0BCD
+      \u0BAA\u0BCB\u0BA4\u0BC1, \\u200b\\u200b\u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1
+      \u0B85\u0B9A\u0BC1\u0BA4\u0BCD\u0BA4\u0B99\u0BCD\u0B95\u0BB3\u0BBF\u0BB2\u0BBF\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4\u0BC1
+      \u0BA4\u0BBE\u0B99\u0BCD\u0B95\u0BC1\u0BA4\u0BB2\u0BC8\u0BAA\u0BCD \u0BAA\u0BBE\u0BA4\u0BC1\u0B95\u0BBE\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1.
+      \n\n\u0B9A\u0BB0\u0BBF\u0BAF\u0BBE\u0BA9 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95\u0BC8,
+      \u0B95\u0BA3\u0BCD\u0BA3\u0BC0\u0BB0\u0BCD \u0B87\u0BB2\u0BCD\u0BB2\u0BC8,
+      \u0B95\u0BBF\u0BB0\u0BC0\u0BB8\u0BCD \u0B95\u0B9A\u0BBF\u0BB5\u0BC1 \u0B87\u0BB2\u0BCD\u0BB2\u0BC8,
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0B85\u0BAA\u0BCD\u0BAA\u0B9F\u0BBF\u0BAF\u0BC7
+      \u0B9A\u0BC0\u0BB2\u0BCD \u0B9A\u0BC6\u0BAF\u0BCD\u0BAF\u0BC1\u0BAE\u0BCD \u0B89\u0BA4\u0B9F\u0BC1
+      \u0B86\u0B95\u0BBF\u0BAF\u0BB5\u0BB1\u0BCD\u0BB1\u0BC8\u0B9A\u0BCD \u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0938\u0940\u0932 \u090F\u09381 \u0939\u092C \u0915\u0947 \u0905\u0902\u0926\u0930
+      \u091A\u093F\u0915\u0928\u093E\u0908 \u092C\u0928\u093E\u090F \u0930\u0916\u0924\u0947
+      \u0939\u0941\u090F \u092C\u093E\u0939\u0930\u0940 \u0938\u0902\u0926\u0942\u0937\u0915\u094B\u0902
+      \u0938\u0947 \u092C\u0947\u092F\u0930\u093F\u0902\u0917 \u0915\u0940 \u0930\u0915\u094D\u0937\u093E
+      \u0915\u0930\u0924\u093E \u0939\u0948\u0964 \n\n\u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902:
+      \u0938\u0939\u0940 \u092C\u0948\u0920\u0928\u0947 \u0915\u0940 \u091C\u0917\u0939,
+      \u0915\u094B\u0908 \u0926\u0930\u093E\u0930 \u0928\u0939\u0940\u0902, \u0915\u094B\u0908
+      \u0917\u094D\u0930\u0940\u0938 \u0930\u093F\u0938\u093E\u0935 \u0928\u0939\u0940\u0902,
+      \u0914\u0930 \u092C\u0930\u0915\u0930\u093E\u0930 \u0938\u0940\u0932\u093F\u0902\u0917
+      \u0932\u093F\u092A\u0964"
+    Object: {fileID: 0}
 --- !u!1 &2061126052
 GameObject:
   m_ObjectHideFlags: 0
@@ -23372,6 +27829,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1548805063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2075373622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2075373623}
+  - component: {fileID: 2075373624}
+  m_Layer: 0
+  m_Name: Part_Balls_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2075373623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075373622}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2075373624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075373622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 1
+  entries:
+  - Language: English
+    Text: 
+    Object: {fileID: 8300000, guid: a27e1e0979f7472419f976e78ba785d8, type: 3}
+  - Language: Tamil
+    Text: 
+    Object: {fileID: 8300000, guid: 20d9312e00cf61c48b8bbc562b8b32a8, type: 3}
+  - Language: Hindi
+    Text: 
+    Object: {fileID: 8300000, guid: d3521d59728cf8641bb9020565cee14e, type: 3}
 --- !u!1 &2087924075
 GameObject:
   m_ObjectHideFlags: 0
@@ -23530,6 +28042,93 @@ Transform:
   - {fileID: 1611419622}
   m_Father: {fileID: 2049093075}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2100871734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2100871735}
+  - component: {fileID: 2100871736}
+  m_Layer: 0
+  m_Name: Part_Balls_Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2100871735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100871734}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2100871736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100871734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: 'Balls reduce friction between the inner and outer rings and carry the
+      load during rotation, enabling smooth and efficient motion.
+
+
+      Check for:
+      uniform size, smooth and polished surface, no pitting, no corrosion, and no
+      contamination.'
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BA8\u0BCD\u0BA4\u0BC1\u0B95\u0BB3\u0BCD \u0B89\u0BB3\u0BCD \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BB5\u0BC6\u0BB3\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1\u0BB1 \u0BB5\u0BB3\u0BC8\u0BAF\u0B99\u0BCD\u0B95\u0BB3\u0BC1\u0B95\u0BCD\u0B95\u0BC1
+      \u0B87\u0B9F\u0BC8\u0BAF\u0BBF\u0BB2\u0BBE\u0BA9 \u0B89\u0BB0\u0BBE\u0BAF\u0BCD\u0BB5\u0BC8\u0B95\u0BCD
+      \u0B95\u0BC1\u0BB1\u0BC8\u0BA4\u0BCD\u0BA4\u0BC1, \u0B9A\u0BC1\u0BB4\u0BB1\u0BCD\u0B9A\u0BBF\u0BAF\u0BBF\u0BA9\u0BCD
+      \u0BAA\u0BCB\u0BA4\u0BC1 \u0B9A\u0BC1\u0BAE\u0BC8\u0BAF\u0BC8\u0B9A\u0BCD \u0B9A\u0BC1\u0BAE\u0BA8\u0BCD\u0BA4\u0BC1,
+      \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BA4\u0BBF\u0BB1\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9 \u0B87\u0BAF\u0B95\u0BCD\u0B95\u0BA4\u0BCD\u0BA4\u0BC8
+      \u0B9A\u0BC6\u0BAF\u0BB2\u0BCD\u0BAA\u0B9F\u0BC1\u0BA4\u0BCD\u0BA4\u0BC1\u0B95\u0BBF\u0BA9\u0BCD\u0BB1\u0BA9.\r\n\r\n\u0B9A\u0BB0\u0BBF\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BB5\u0BC1\u0BAE\u0BCD:
+      \u0B9A\u0BC0\u0BB0\u0BBE\u0BA9 \u0B85\u0BB3\u0BB5\u0BC1, \u0BAE\u0BC6\u0BA9\u0BCD\u0BAE\u0BC8\u0BAF\u0BBE\u0BA9
+      \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD \u0BAA\u0BB3\u0BAA\u0BB3\u0BAA\u0BCD\u0BAA\u0BBE\u0BA9
+      \u0BAE\u0BC7\u0BB1\u0BCD\u0BAA\u0BB0\u0BAA\u0BCD\u0BAA\u0BC1, \u0B95\u0BC1\u0BB4\u0BBF\u0B95\u0BB3\u0BCD
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0B85\u0BB0\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1
+      \u0B87\u0BB2\u0BCD\u0BB2\u0BC8, \u0BAE\u0BB1\u0BCD\u0BB1\u0BC1\u0BAE\u0BCD
+      \u0BAE\u0BBE\u0B9A\u0BC1\u0BAA\u0BBE\u0B9F\u0BC1 \u0B87\u0BB2\u0BCD\u0BB2\u0BC8."
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u0917\u0947\u0902\u0926\u0947\u0902 \u0906\u0902\u0924\u0930\u093F\u0915
+      \u0914\u0930 \u092C\u093E\u0939\u0930\u0940 \u091B\u0932\u094D\u0932\u094B\u0902
+      \u0915\u0947 \u092C\u0940\u091A \u0918\u0930\u094D\u0937\u0923 \u0915\u094B
+      \u0915\u092E \u0915\u0930\u0924\u0940 \u0939\u0948\u0902 \u0914\u0930 \u0918\u0942\u0930\u094D\u0923\u0928
+      \u0915\u0947 \u0926\u094C\u0930\u093E\u0928 \u092D\u093E\u0930 \u0935\u0939\u0928
+      \u0915\u0930\u0924\u0940 \u0939\u0948\u0902, \u091C\u093F\u0938\u0938\u0947
+      \u0938\u0941\u091A\u093E\u0930\u0942 \u0914\u0930 \u0915\u0941\u0936\u0932
+      \u0917\u0924\u093F \u0938\u0902\u092D\u0935 \u0939\u094B\u0924\u0940 \u0939\u0948\u0964\r\n\r\n\u0928\u093F\u092E\u094D\u0928\u0932\u093F\u0916\u093F\u0924
+      \u092C\u093E\u0924\u094B\u0902 \u0915\u0940 \u091C\u093E\u0901\u091A \u0915\u0930\u0947\u0902:
+      \u090F\u0915\u0938\u092E\u093E\u0928 \u0906\u0915\u093E\u0930, \u091A\u093F\u0915\u0928\u0940
+      \u0914\u0930 \u092A\u0949\u0932\u093F\u0936 \u0915\u0940 \u0939\u0941\u0908
+      \u0938\u0924\u0939, \u0915\u094B\u0908 \u0917\u0921\u094D\u0922\u0947 \u0928\u0939\u0940\u0902,
+      \u0915\u094B\u0908 \u091C\u0902\u0917 \u0928\u0939\u0940\u0902 \u0914\u0930
+      \u0915\u094B\u0908 \u0938\u0902\u0926\u0942\u0937\u0923 \u0928\u0939\u0940\u0902\u0964"
+    Object: {fileID: 0}
 --- !u!1 &2111501011
 GameObject:
   m_ObjectHideFlags: 0
@@ -23723,6 +28322,38 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &2114979951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2114979952}
+  m_Layer: 4
+  m_Name: Ball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2114979952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114979951}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1671351723}
+  m_Father: {fileID: 221241295}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129424626
 GameObject:
   m_ObjectHideFlags: 0
@@ -23903,6 +28534,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 395899353}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2144222527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144222528}
+  - component: {fileID: 2144222529}
+  m_Layer: 0
+  m_Name: Hub3Bearing_Part_B1Ring_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2144222528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144222527}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439437050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2144222529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144222527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: B1 Ring
+    Object: {fileID: 0}
+  - Language: Tamil
+    Text: "\u0BAA\u0BBF1 \u0BB5\u0BB3\u0BC8\u0BAF\u0BAE\u0BCD"
+    Object: {fileID: 0}
+  - Language: Hindi
+    Text: "\u092C\u09401 \u0905\u0902\u0917\u0942\u0920\u0940"
+    Object: {fileID: 0}
 --- !u!1001 &1061038492495910145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24007,4 +28693,5 @@ SceneRoots:
   - {fileID: 271185474}
   - {fileID: 1439437050}
   - {fileID: 608498525}
+  - {fileID: 221241295}
   - {fileID: 1278852396}

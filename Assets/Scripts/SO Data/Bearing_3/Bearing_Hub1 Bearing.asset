@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec51a1d4fe0c41d4b9dc9f170764a340, type: 3}
+  m_Name: Bearing_Hub1 Bearing
+  m_EditorClassIdentifier: 
+  partName: Hub1Bearing_Part_Bearing_Title
+  partDescription: Hub1Bearing_Part_Bearing_Description
+  audioPhrase: Hub1Bearing_Part_Bearing_Audio
+  fallbackName: Hub1 Bearing
+  fallbackDescription: A Hub1 bearing is a first-generation wheel hub bearing that
+    consists of a bearing with separate inner ring, outer ring, and seal. It supports
+    vehicle wheel rotation while carrying both radial and axial loads, offering reliable
+    performance with a serviceable design.

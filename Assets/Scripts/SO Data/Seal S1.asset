@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec51a1d4fe0c41d4b9dc9f170764a340, type: 3}
+  m_Name: Seal S1
+  m_EditorClassIdentifier: 
+  partName: Part_SealS1_Title
+  partDescription: Part_SealS1_Description
+  audioPhrase: Part_SealS1_Audio
+  fallbackName: Seal S1
+  fallbackDescription: "Seal S1 protects the bearing from external contaminants while
+    retaining lubrication inside the hub. \n\nCheck for: correct seating, no tears,
+    no grease leakage, and intact sealing lip."

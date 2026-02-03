@@ -11,6 +11,7 @@ public class SnapZoneVisualController : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private bool showWhenGrabbed = true;
     [SerializeField] private bool hideWhenSnapped = true;
+    [SerializeField] private bool autoUpdateWithSelectedBearing = true;
 
     private bool isSnapped = false;
     private bool isGrabbed = false;
@@ -24,6 +25,11 @@ public class SnapZoneVisualController : MonoBehaviour
         }
 
         isInitialized = true;
+
+        if (autoUpdateWithSelectedBearing)
+        {
+            InitializeWithCurrentBearing();
+        }
     }
 
     void OnEnable()
@@ -36,6 +42,82 @@ public class SnapZoneVisualController : MonoBehaviour
         isSnapped = false;
         isGrabbed = false;
 
+        SubscribeToCurrentReferences();
+
+        if (autoUpdateWithSelectedBearing)
+        {
+            EventManager.UpdateSelectedBearing += OnBearingChanged;
+        }
+    }
+
+    void OnDisable()
+    {
+        UnsubscribeFromCurrentReferences();
+
+        if (autoUpdateWithSelectedBearing)
+        {
+            EventManager.UpdateSelectedBearing -= OnBearingChanged;
+        }
+
+        if (visualMarker != null)
+        {
+            visualMarker.SetActive(false);
+        }
+    }
+
+    private void InitializeWithCurrentBearing()
+    {
+        if (PartInfoUIManager.Instance != null && PartInfoUIManager.Instance.CurrentSelectedBearing != null)
+        {
+            UpdateBearingReferences(PartInfoUIManager.Instance.CurrentSelectedBearing);
+        }
+    }
+
+    private void OnBearingChanged(GameObject newBearing)
+    {
+        if (newBearing == null)
+        {
+            Debug.LogWarning("SnapZoneVisualController: Received null bearing!");
+            return;
+        }
+
+        UpdateBearingReferences(newBearing);
+    }
+
+    private void UpdateBearingReferences(GameObject bearingGameObject)
+    {
+        UnsubscribeFromCurrentReferences();
+
+        snapInteractor = bearingGameObject.GetComponentInChildren<SnapInteractor>();
+        grabbablePart = bearingGameObject.GetComponent<Grabbable>();
+
+        visualMarker = bearingGameObject.GetComponent<EngineAnimationController>().snapOutline;
+
+        if (snapInteractor == null)
+        {
+            Debug.LogError($"SnapZoneVisualController: Bearing '{bearingGameObject.name}' doesn't have SnapInteractor component!");
+        }
+
+        if (grabbablePart == null)
+        {
+            Debug.LogError($"SnapZoneVisualController: Bearing '{bearingGameObject.name}' doesn't have Grabbable component!");
+        }
+
+        isSnapped = false;
+        isGrabbed = false;
+
+        SubscribeToCurrentReferences();
+
+        if (visualMarker != null)
+        {
+            visualMarker.SetActive(false);
+        }
+
+        Debug.Log($"SnapZoneVisualController: Updated to bearing '{bearingGameObject.name}'");
+    }
+
+    private void SubscribeToCurrentReferences()
+    {
         if (grabbablePart != null)
         {
             grabbablePart.WhenPointerEventRaised += OnGrabbableEvent;
@@ -47,7 +129,7 @@ public class SnapZoneVisualController : MonoBehaviour
         }
     }
 
-    void OnDisable()
+    private void UnsubscribeFromCurrentReferences()
     {
         if (grabbablePart != null)
         {
@@ -57,11 +139,6 @@ public class SnapZoneVisualController : MonoBehaviour
         if (snapInteractor != null)
         {
             snapInteractor.WhenStateChanged -= OnSnapStateChanged;
-        }
-
-        if (visualMarker != null)
-        {
-            visualMarker.SetActive(false);
         }
     }
 
@@ -134,5 +211,25 @@ public class SnapZoneVisualController : MonoBehaviour
         {
             visualMarker.SetActive(false);
         }
+    }
+
+    public void SetBearingReferences(SnapInteractor newSnapInteractor, Grabbable newGrabbablePart)
+    {
+        UnsubscribeFromCurrentReferences();
+
+        snapInteractor = newSnapInteractor;
+        grabbablePart = newGrabbablePart;
+
+        isSnapped = false;
+        isGrabbed = false;
+
+        SubscribeToCurrentReferences();
+
+        if (visualMarker != null)
+        {
+            visualMarker.SetActive(false);
+        }
+
+        Debug.Log($"SnapZoneVisualController: Manually updated references");
     }
 }

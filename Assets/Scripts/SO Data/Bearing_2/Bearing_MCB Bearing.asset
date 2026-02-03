@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec51a1d4fe0c41d4b9dc9f170764a340, type: 3}
+  m_Name: Bearing_MCB Bearing
+  m_EditorClassIdentifier: 
+  partName: MCBBearing_Part_Bearing_Title
+  partDescription: MCBBearing_Part_Bearing_Description
+  audioPhrase: MCBBearing_Part_Bearing_Audio
+  fallbackName: MCB Bearing  (Double Row Bearing)
+  fallbackDescription: An MCB bearing is a double row ball bearing that can support
+    higher loads compared to single row bearings. Its dual-row design provides better
+    stability and durability, making it suitable for motorcycle wheels and compact
+    automotive applications.

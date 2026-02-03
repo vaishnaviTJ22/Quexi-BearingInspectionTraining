@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec51a1d4fe0c41d4b9dc9f170764a340, type: 3}
-  m_Name: Bearing
+  m_Name: Bearing_Namikei&SingleRowBearing
   m_EditorClassIdentifier: 
-  partName: Part_Bearing_Title
-  partDescription: Part_Bearing_Description
-  audioPhrase: Part_Bearing_Audio
-  fallbackName: Bearing
+  partName: Namikei&SingleRowBearing_Part_Bearing_Title
+  partDescription: Namikei&SingleRowBearing_Part_Bearing_Description
+  audioPhrase: Namikei&SingleRowBearing_Part_Bearing_Audio
+  fallbackName: Namikei & SingleRowBearing
   fallbackDescription: A bearing is a mechanical component used to support rotating
     parts and reduce friction between moving surfaces. It helps ensure smooth, stable,
     and efficient motion while carrying loads, improving performance, reliability,

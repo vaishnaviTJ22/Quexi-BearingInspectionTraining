@@ -43,6 +43,8 @@ public class EngineAnimationController : MonoBehaviour
     public SnapInteractor bearingSnapInteractor;
     public GameObject bearingSnapZone;
 
+    public GameObject snapOutline;
+
     private Animator animator;
     private bool isExploded = false;
     private bool isAnimating = false;

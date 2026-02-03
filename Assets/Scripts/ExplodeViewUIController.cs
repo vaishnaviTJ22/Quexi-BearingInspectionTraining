@@ -8,6 +8,7 @@ public class ExplodedViewUIController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private EngineAnimationController animationController;
+    [SerializeField] private PartInfoUIManager partInfoUIManager;
     [SerializeField] private Toggle explodedViewToggle;
     [SerializeField] private GameObject menuUIPanel;
 
@@ -28,28 +29,71 @@ public class ExplodedViewUIController : MonoBehaviour
             explodedViewToggle.onValueChanged.AddListener(OnToggleValueChanged);
         }
 
-        if (animationController != null)
+        if (partInfoUIManager == null)
         {
-            animationController.onExplodeComplete.AddListener(OnExplodeComplete);
-            animationController.onReassembleComplete.AddListener(OnReassembleComplete);
-            animationController.onAllPartsSnappedChanged.AddListener(OnAllPartsSnappedChanged);
+            partInfoUIManager = FindFirstObjectByType<PartInfoUIManager>();
+        }
+
+        if (partInfoUIManager != null && partInfoUIManager.CurrentSelectedBearing != null)
+        {
+            UpdateSelectedBearing(partInfoUIManager.CurrentSelectedBearing);
         }
 
         UpdateButtonLabel(false);
         UpdateToggleInteractable(true);
     }
+
+    public void UpdateSelectedBearing(GameObject bearing)
+    {
+        if (bearing == null)
+        {
+            Debug.LogWarning("ExplodeViewUIController: Received null bearing!");
+            return;
+        }
+
+        if (animationController != null)
+        {
+            animationController.onExplodeComplete.RemoveListener(OnExplodeComplete);
+            animationController.onReassembleComplete.RemoveListener(OnReassembleComplete);
+            animationController.onAllPartsSnappedChanged.RemoveListener(OnAllPartsSnappedChanged);
+        }
+
+        animationController = bearing.GetComponent<EngineAnimationController>();
+
+        if (animationController == null)
+        {
+            Debug.LogError($"ExplodeViewUIController: Bearing '{bearing.name}' doesn't have EngineAnimationController component!");
+            return;
+        }
+
+        animationController.onExplodeComplete.AddListener(OnExplodeComplete);
+        animationController.onReassembleComplete.AddListener(OnReassembleComplete);
+        animationController.onAllPartsSnappedChanged.AddListener(OnAllPartsSnappedChanged);
+
+        explodedViewToggle.isOn = false;
+        UpdateButtonLabel(false);
+        UpdateToggleInteractable(true);
+
+        Debug.Log($"ExplodeViewUIController: Switched to bearing '{bearing.name}'");
+    }
+
     private void OnEnable()
     {
         EventManager.UpdateMenuUIActiveState += UpdateMenuActiveState;
+        EventManager.UpdateSelectedBearing += UpdateSelectedBearing;
     }
+
     private void OnDisable()
     {
         EventManager.UpdateMenuUIActiveState -= UpdateMenuActiveState;
+        EventManager.UpdateSelectedBearing -= UpdateSelectedBearing;
     }
+
     public void UpdateMenuActiveState(bool active)
     {
         menuUIPanel.SetActive(active);
     }
+
     void OnDestroy()
     {
         if (explodedViewToggle != null)
@@ -71,6 +115,7 @@ public class ExplodedViewUIController : MonoBehaviour
         animationController.ToggleExplodedView(true);
         UpdateButtonLabel(true);
     }
+
     [ContextMenu("OFF")]
     public void Off()
     {
@@ -85,6 +130,7 @@ public class ExplodedViewUIController : MonoBehaviour
             Debug.LogWarning("Cannot reassemble - all parts must be snapped first!");
         }
     }
+
     private void OnToggleValueChanged(bool isOn)
     {
         if (animationController != null && !animationController.IsAnimating())
@@ -140,9 +186,6 @@ public class ExplodedViewUIController : MonoBehaviour
 
             if (localizer != null)
             {
-                // Set the correct phrase and fallback based on the state
-                // If exploded -> show "Normal View" text
-                // If normal -> show "Exploded View" text
                 if (isExploded)
                 {
                     localizer.TranslationName = normalViewPhrase;
@@ -154,18 +197,17 @@ public class ExplodedViewUIController : MonoBehaviour
                     localizer.FallbackText = explodedViewFallbackText;
                 }
 
-                // Let the component handle the text and font update safely
                 localizer.UpdateLocalization();
             }
             else
             {
-                // Fallback if component is missing
                 string currentPhrase = isExploded ? normalViewPhrase : explodedViewPhrase;
                 string currentFallback = isExploded ? normalViewFallbackText : explodedViewFallbackText;
                 buttonLabelText.text = GetLocalizedText(currentPhrase, currentFallback);
             }
         }
     }
+
     private string GetLocalizedText(string phraseName, string fallback)
     {
         if (string.IsNullOrEmpty(phraseName))
@@ -180,6 +222,7 @@ public class ExplodedViewUIController : MonoBehaviour
 
         return fallback;
     }
+
     private void UpdateToggleInteractable(bool interactable)
     {
         if (explodedViewToggle != null)
