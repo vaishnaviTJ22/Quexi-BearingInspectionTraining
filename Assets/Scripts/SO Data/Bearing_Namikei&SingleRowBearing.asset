@@ -16,7 +16,11 @@ MonoBehaviour:
   partDescription: Namikei&SingleRowBearing_Part_Bearing_Description
   audioPhrase: Namikei&SingleRowBearing_Part_Bearing_Audio
   fallbackName: Namikei & SingleRowBearing
-  fallbackDescription: A bearing is a mechanical component used to support rotating
-    parts and reduce friction between moving surfaces. It helps ensure smooth, stable,
-    and efficient motion while carrying loads, improving performance, reliability,
-    and the overall life of machines.
+  fallbackDescription: 'A bearing that uses one row of balls to reduce friction and
+    support radial loads.
+
+    Its simple and compact design is suitable for light
+    to moderate load applications.
+
+    It is commonly used where space is limited
+    and smooth rotation is required.'

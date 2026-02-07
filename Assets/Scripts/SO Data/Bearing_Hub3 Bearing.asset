@@ -16,7 +16,11 @@ MonoBehaviour:
   partDescription: Hub3Bearing_Part_Bearing_Description
   audioPhrase: Hub3Bearing_Part_Bearing_Audio
   fallbackName: Hub3 Bearing
-  fallbackDescription: A Hub3 bearing is an integrated wheel hub assembly that combines
-    the bearing, hub, seal, and mounting components into a single unit. It provides
-    high load capacity, precise wheel alignment, and improved safety, and is commonly
-    used in modern vehicles with ABS systems.
+  fallbackDescription: 'A fully integrated wheel hub unit combining the bearing,
+    hub flange, and mounting components.
+
+    It is commonly used in modern vehicles
+    and often includes ABS sensor integration.
+
+    The integrated design reduces
+    installation time and improves wheel alignment accuracy.'

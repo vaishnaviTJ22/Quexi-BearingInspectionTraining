@@ -16,7 +16,11 @@ MonoBehaviour:
   partDescription: Hub1Bearing_Part_Bearing_Description
   audioPhrase: Hub1Bearing_Part_Bearing_Audio
   fallbackName: Hub1 Bearing
-  fallbackDescription: A Hub1 bearing is a first-generation wheel hub bearing that
-    consists of a bearing with separate inner ring, outer ring, and seal. It supports
-    vehicle wheel rotation while carrying both radial and axial loads, offering reliable
-    performance with a serviceable design.
+  fallbackDescription: 'A wheel hub bearing made of separate components such as inner
+    ring, outer ring, balls, and seals.
+
+    It supports wheel rotation while carrying
+    both radial and axial vehicle loads.
+
+    This design requires proper assembly
+    and precise installation.'

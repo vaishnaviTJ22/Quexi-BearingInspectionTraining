@@ -16,7 +16,11 @@ MonoBehaviour:
   partDescription: MCBBearing_Part_Bearing_Description
   audioPhrase: MCBBearing_Part_Bearing_Audio
   fallbackName: MCB Bearing  (Double Row Bearing)
-  fallbackDescription: An MCB bearing is a double row ball bearing that can support
-    higher loads compared to single row bearings. Its dual-row design provides better
-    stability and durability, making it suitable for motorcycle wheels and compact
-    automotive applications.
+  fallbackDescription: 'A bearing that uses two rows of balls to support higher radial
+    and axial loads.
+
+    The double-row design improves load distribution, stability,
+    and durability.
+
+    It is often used in motorcycle wheels and compact automotive
+    applications.'
