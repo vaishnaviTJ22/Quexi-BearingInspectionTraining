@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4fd97c8e037ab749a06b6e9bc539d7b, type: 3}
+  m_Name: MCB Bearing
+  m_EditorClassIdentifier: 
+  questions:
+  - questionPhrase: MCBBearing_Quiz_Question_1
+    audioPhrase: 
+    optionPhrases:
+    - MCBBearing_Quiz_Q1_Opt_1
+    - MCBBearing_Quiz_Q1_Opt_2
+    - MCBBearing_Quiz_Q1_Opt_3
+    - MCBBearing_Quiz_Q1_Opt_4
+    fallbackQuestion: Why does an MCB bearing use two rows of balls?
+    fallbackOptions:
+    - To reduce noise
+    - To support higher loads and improve stability
+    - To reduce size
+    - To eliminate lubrication
+    correctOptionIndex: 1
+  - questionPhrase: MCBBearing_Quiz_Question_2
+    audioPhrase: 
+    optionPhrases:
+    - MCBBearing_Quiz_Q2_Opt_1
+    - MCBBearing_Quiz_Q2_Opt_2
+    - MCBBearing_Quiz_Q2_Opt_3
+    - MCBBearing_Quiz_Q2_Opt_4
+    fallbackQuestion: Which cage type is commonly used in MCB bearings?
+    fallbackOptions:
+    - Brass cage
+    - Steel cage
+    - Plastic cage
+    - Rubber cage
+    correctOptionIndex: 2
+  - questionPhrase: MCBBearing_Quiz_Question_3
+    audioPhrase: 
+    optionPhrases:
+    - MCBBearing_Quiz_Q3_Opt_1
+    - MCBBearing_Quiz_Q3_Opt_2
+    - MCBBearing_Quiz_Q3_Opt_3
+    - MCBBearing_Quiz_Q3_Opt_4
+    fallbackQuestion: What is a key inspection point for a plastic cage?
+    fallbackOptions:
+    - Rust formation
+    - Heat discoloration or cracking
+    - Bolt tightness
+    - Shaft alignment
+    correctOptionIndex: 1

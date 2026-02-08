@@ -8,9 +8,16 @@ public class QuizData : ScriptableObject
     [Serializable]
     public struct Question
     {
+        [Header("Localization Keys")]
+        public string questionPhrase;
+        public string audioPhrase; // Added for consistency
+        public string[] optionPhrases; // 4 options usually
+
+        [Header("Fallbacks")]
         [TextArea(2, 5)]
-        public string questionText;
-        public string[] options; // Should be 4 options usually
+        public string fallbackQuestion;
+        public string[] fallbackOptions;
+
         public int correctOptionIndex; // 0 to 3
     }
 

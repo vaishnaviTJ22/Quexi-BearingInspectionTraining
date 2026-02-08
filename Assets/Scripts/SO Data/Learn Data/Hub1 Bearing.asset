@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182c9b1add361454880f8d772a4f0e3c, type: 3}
+  m_Name: Hub1 Bearing
+  m_EditorClassIdentifier: 
+  steps:
+  - titlePhrase: 
+    descriptionPhrase: Hub1_Description (1)
+    audioPhrase: Hub1_Audio  (1)
+    animationStateName: 1
+    fallbackTitle: 
+    fallbackDescription: Start to learn how to align and assemble the Hub1 bearing
+      step by step.
+  - titlePhrase: 
+    descriptionPhrase: Hub1_Description (2)
+    audioPhrase: Hub1_Audio  (2)
+    animationStateName: 2
+    fallbackTitle: 
+    fallbackDescription: First, take the inner ring and place it properly on the
+      surface.
+  - titlePhrase: 
+    descriptionPhrase: Hub1_Description (3)
+    audioPhrase: Hub1_Audio  (3)
+    animationStateName: 3
+    fallbackTitle: 
+    fallbackDescription: Next, take the silver cage, fit the balls into it.
+  - titlePhrase: 
+    descriptionPhrase: Hub1_Description (4)
+    audioPhrase: Hub1_Audio  (4)
+    animationStateName: 4
+    fallbackTitle: 
+    fallbackDescription: carefully place the set onto the inner ring, aligning it
+      correctly.
+  - titlePhrase: 
+    descriptionPhrase: Hub1_Description (5)
+    audioPhrase: Hub1_Audio  (5)
+    animationStateName: 5
+    fallbackTitle: 
+    fallbackDescription: 'Now, take the outer ring and gently place it over the ball
+      cage and inner ring assembly.
+
+      Press the outer ring slowly until all
+      parts are fully seated and aligned.'
+  - titlePhrase: 
+    descriptionPhrase: Hub1_Description (6)
+    audioPhrase: Hub1_Audio  (6)
+    animationStateName: 6
+    fallbackTitle: 
+    fallbackDescription: Then, place the seal carefully to lock the bearing assembly
+      in position.
+  - titlePhrase: 
+    descriptionPhrase: Hub1_Description (7)
+    audioPhrase: Hub1_Audio  (7)
+    animationStateName: 7
+    fallbackTitle: 
+    fallbackDescription: Finally, rotate the assembly to check smooth movement and
+      proper fitting.

@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: Namikei & Single Row Bearing
   m_EditorClassIdentifier: 
   steps:
-  - stepImage: {fileID: 21300002, guid: 66995b6b61aed864daa956ae255d7fee, type: 3}
-    stepDescription: Surface pitting on balls or raceway
-  - stepImage: {fileID: 21300002, guid: 66995b6b61aed864daa956ae255d7fee, type: 3}
-    stepDescription: Cage deformation or breakage
-  - stepImage: {fileID: 21300002, guid: 66995b6b61aed864daa956ae255d7fee, type: 3}
-    stepDescription: Discoloration from overheating
-  - stepImage: {fileID: 21300002, guid: 66995b6b61aed864daa956ae255d7fee, type: 3}
-    stepDescription: Contamination inside bearing
+  - stepImage: {fileID: 21300000, guid: ca8657c859e6ad24fbfdaf02fdb06790, type: 3}
+    descriptionPhrase: SingleRowBearing_Description_1
+    fallbackDescription: Surface pitting on balls or raceway
+  - stepImage: {fileID: 21300000, guid: 5c5cd1d706fad5f41b974cf491f328b3, type: 3}
+    descriptionPhrase: SingleRowBearing_Description_2
+    fallbackDescription: Cage deformation or breakage
+  - stepImage: {fileID: 21300000, guid: 02ad84605fe3c184e953564654389d62, type: 3}
+    descriptionPhrase: SingleRowBearing_Description_3
+    fallbackDescription: Discoloration from overheating
+  - stepImage: {fileID: 21300000, guid: 77e73dd354dc42340876a8a8b3dfe1ff, type: 3}
+    descriptionPhrase: SingleRowBearing_Description_4
+    fallbackDescription: Contamination inside bearing

@@ -13,22 +13,43 @@ MonoBehaviour:
   m_Name: Namikei & Single Row Bearing
   m_EditorClassIdentifier: 
   questions:
-  - questionText: What is the main function of a single row bearing?
-    options:
+  - questionPhrase: SingleRowBearing_Quiz_Question_1
+    audioPhrase: 
+    optionPhrases:
+    - SingleRowBearing_Quiz_Q1_Opt_1
+    - SingleRowBearing_Quiz_Q1_Opt_2
+    - SingleRowBearing_Quiz_Q1_Opt_3
+    - SingleRowBearing_Quiz_Q1_Opt_4
+    fallbackQuestion: What is the main function of a single row bearing?
+    fallbackOptions:
     - Support only axial loads
     - Reduce friction and support radial loads
     - Prevent contamination
     - Measure wheel speed
     correctOptionIndex: 1
-  - questionText: Which component maintains equal spacing between the balls?
-    options:
+  - questionPhrase: SingleRowBearing_Quiz_Question_2
+    audioPhrase: 
+    optionPhrases:
+    - SingleRowBearing_Quiz_Q2_Opt_1
+    - SingleRowBearing_Quiz_Q2_Opt_2
+    - SingleRowBearing_Quiz_Q2_Opt_3
+    - SingleRowBearing_Quiz_Q2_Opt_4
+    fallbackQuestion: Which component maintains equal spacing between the balls?
+    fallbackOptions:
     - Inner ring
     - Outer ring
     - Metal cage
     - Seal
     correctOptionIndex: 2
-  - questionText: What should be checked on the metal cage during inspection?
-    options:
+  - questionPhrase: SingleRowBearing_Quiz_Question_3
+    audioPhrase: 
+    optionPhrases:
+    - SingleRowBearing_Quiz_Q3_Opt_1
+    - SingleRowBearing_Quiz_Q3_Opt_2
+    - SingleRowBearing_Quiz_Q3_Opt_3
+    - SingleRowBearing_Quiz_Q3_Opt_4
+    fallbackQuestion: What should be checked on the metal cage during inspection?
+    fallbackOptions:
     - Grease color
     - Deformation or cracks
     - Bolt torque

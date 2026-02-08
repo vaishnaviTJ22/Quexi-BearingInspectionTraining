@@ -135,6 +135,41 @@ public class PartAudioManager : MonoBehaviour
         return currentPlayingPart;
     }
 
+    public void PlayLocalizedAudio(string phraseName)
+    {
+        if (string.IsNullOrEmpty(phraseName))
+        {
+            StopCurrentAudio();
+            return;
+        }
+
+        AudioClip clip = GetLocalizedAudio(phraseName);
+        if (clip != null)
+        {
+            PlayClip(clip);
+        }
+        else
+        {
+            if (showDebugLogs) Debug.LogWarning($"PartAudioManager: No audio found for phrase '{phraseName}'");
+            StopCurrentAudio();
+        }
+    }
+
+    public void PlayClip(AudioClip clip)
+    {
+        if (clip == null || audioSource == null) return;
+        
+        StopCurrentAudio();
+        
+        audioSource.clip = clip;
+        audioSource.Play();
+        isPlaying = true;
+        currentPlayingPart = null; 
+        
+        if (showDebugLogs)
+            Debug.Log($"PartAudioManager: Playing generic clip - Duration: {clip.length:F1}s");
+    }
+
     void Update()
     {
         if (isPlaying && audioSource != null && !audioSource.isPlaying)

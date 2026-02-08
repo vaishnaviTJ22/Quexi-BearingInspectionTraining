@@ -11,9 +11,13 @@ public class InspectionData : ScriptableObject
         [Tooltip("Image showing the defect or check to perform")]
         public Sprite stepImage;
         
+        [Header("Localization Keys")]
+        public string descriptionPhrase;
+        //public string audioPhrase; // Added for consistency with Learn mode
+
+        [Header("Fallbacks")]
         [TextArea(3, 10)]
-        [Tooltip("Description of what to look for")]
-        public string stepDescription;
+        public string fallbackDescription;
     }
 
     public List<InspectionStep> steps;

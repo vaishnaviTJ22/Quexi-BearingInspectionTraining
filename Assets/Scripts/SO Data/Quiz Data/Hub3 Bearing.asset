@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4fd97c8e037ab749a06b6e9bc539d7b, type: 3}
+  m_Name: Hub3 Bearing
+  m_EditorClassIdentifier: 
+  questions:
+  - questionPhrase: Hub3Bearing_Quiz_Question_1
+    audioPhrase: 
+    optionPhrases:
+    - Hub3Bearing_Quiz_Q1_Opt_1
+    - Hub3Bearing_Quiz_Q1_Opt_2
+    - Hub3Bearing_Quiz_Q1_Opt_3
+    - Hub3Bearing_Quiz_Q1_Opt_4
+    fallbackQuestion: What makes a Hub3 bearing different from Hub1?
+    fallbackOptions:
+    - Uses fewer balls
+    - Has no seal
+    - Integrated hub, bearing, and mounting components
+    - Supports only radial loads
+    correctOptionIndex: 2
+  - questionPhrase: Hub3Bearing_Quiz_Question_2
+    audioPhrase: 
+    optionPhrases:
+    - Hub3Bearing_Quiz_Q2_Opt_1
+    - Hub3Bearing_Quiz_Q2_Opt_2
+    - Hub3Bearing_Quiz_Q2_Opt_3
+    - Hub3Bearing_Quiz_Q2_Opt_4
+    fallbackQuestion: Which component connects the wheel to the bearing assembly?
+    fallbackOptions:
+    - Inner ring
+    - Hub flange
+    - Cage
+    - Seal
+    correctOptionIndex: 1
+  - questionPhrase: Hub3Bearing_Quiz_Question_3
+    audioPhrase: 
+    optionPhrases:
+    - Hub3Bearing_Quiz_Q3_Opt_1
+    - Hub3Bearing_Quiz_Q3_Opt_2
+    - Hub3Bearing_Quiz_Q3_Opt_3
+    - Hub3Bearing_Quiz_Q3_Opt_4
+    fallbackQuestion: What is the function of the ABS sensor cable?
+    fallbackOptions:
+    - Reduce friction
+    - Retain grease
+    - Detect wheel speed for braking control
+    - Support axial load
+    correctOptionIndex: 2

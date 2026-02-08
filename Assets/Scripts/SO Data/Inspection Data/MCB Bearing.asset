@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16e9c3f5bd188d84a9a2fcfc544a1e6e, type: 3}
+  m_Name: MCB Bearing
+  m_EditorClassIdentifier: 
+  steps:
+  - stepImage: {fileID: 21300000, guid: 777f4898c15b04747a511d08406706a2, type: 3}
+    descriptionPhrase: MCBBearing_Description_1
+    fallbackDescription: Uneven wear between ball rows
+  - stepImage: {fileID: 21300000, guid: 1f155a440f5f7614180c3fe8cca6e609, type: 3}
+    descriptionPhrase: MCBBearing_Description_2
+    fallbackDescription: Cracked or melted plastic cage
+  - stepImage: {fileID: 21300000, guid: b4dcae61107d97145a3d194e364ed701, type: 3}
+    descriptionPhrase: MCBBearing_Description_3
+    fallbackDescription: Excessive internal play
+  - stepImage: {fileID: 21300000, guid: 27f580f26771e6841bc3353abc07f98c, type: 3}
+    descriptionPhrase: MCBBearing_Description_4
+    fallbackDescription: Grease breakdown or leakage
