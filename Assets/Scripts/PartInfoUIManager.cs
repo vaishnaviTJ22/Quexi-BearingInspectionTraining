@@ -1,5 +1,6 @@
 using Lean.Localization;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using TamilUI;
 using TMPro;
@@ -343,7 +344,13 @@ public class PartInfoUIManager : MonoBehaviour
         UpdateLearnUI();
         EventManager.UpdateMenuUIActiveState?.Invoke(false); // Maybe hide menu interaction?
     }
-
+    IEnumerator DelayOnEnableSelectedBearing()
+    {
+        CurrentAnimationBearing.SetActive(false);
+        yield return new WaitForSeconds(.5f);
+        CurrentAnimationBearing.SetActive(true);
+        CurrentAnimationBearing.transform.rotation = Quaternion.identity;
+    }
     private void NextLearnStep()
     {
         if (!isLearnActive || currentLearnData == null) return;
